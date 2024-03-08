@@ -1,0 +1,9 @@
+Name: Features
+Type: FolderType
+Children:
+- File: CustomeEventLogger/CustomeEventLogger.yaml
+- File: XYChart/XYChart.yaml
+- File: HistogramAndPieChart/HistogramAndPieChart.yaml
+- File: WebBrowser/WebBrowser.yaml
+- File: DataControls_Box/DataControls_Box.yaml
+- File: ODBC/ODBC.yaml

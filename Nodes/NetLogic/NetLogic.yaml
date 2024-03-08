@@ -1,0 +1,14 @@
+Name: NetLogic
+Type: NetLogicCategoryFolder
+Children:
+- File: 'Design-time_scripts/Design-time_scripts.yaml'
+- File: 'Run-time_scripts/Run-time_scripts.yaml'
+- File: AppGenerator/AppGenerator.yaml
+- Name: ClockLogic
+  Type: NetLogic
+  Children:
+  - Name: Time
+    Type: BaseDataVariableType
+    DataType: DateTime
+- File: CountNodesLogic/CountNodesLogic.yaml
+- File: ODBC/ODBC.yaml

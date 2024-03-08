@@ -1,0 +1,424 @@
+Name: Recipes
+Type: RecipesCategoryFolder
+Children:
+- Name: RecipeCLX1
+  Id: g=eaa44e82bd262e169c46d025c4f79ca8
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Rec_BOOL
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Rec_DINT
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Rec_INT
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Rec_LINT
+      Type: BaseDataVariableType
+      DataType: Int64
+    - Name: Rec_REAL
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Rec_SINT
+      Type: BaseDataVariableType
+      DataType: SByte
+    - Name: Rec_STRING
+      Type: BaseDataVariableType
+      DataType: String
+  - Class: Reference
+    Target: ns=32;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/MyRecipe_ICE1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Id: g=9279ea7011248586ac2263fac27efd61
+    Type: BaseObjectType
+    Children:
+    - Name: Rec_BOOL
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Rec_DINT
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Rec_INT
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Rec_LINT
+      Type: BaseDataVariableType
+      DataType: Int64
+    - Name: Rec_REAL
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Rec_SINT
+      Type: BaseDataVariableType
+      DataType: SByte
+    - Name: Rec_STRING
+      Type: BaseDataVariableType
+      DataType: String
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/SysTestODBCApp/DataStores/DBRecipeCLX1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+- Name: RecipeCLX2
+  Id: g=5497381d964dc47f52962331ddfca017
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Rec_BOOL
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Rec_DINT
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Rec_INT
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Rec_LINT
+      Type: BaseDataVariableType
+      DataType: Int64
+    - Name: Rec_REAL
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Rec_SINT
+      Type: BaseDataVariableType
+      DataType: SByte
+    - Name: Rec_STRING
+      Type: BaseDataVariableType
+      DataType: String
+  - Class: Reference
+    Target: ns=32;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/MyRecipe_ICE1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Type: BaseObjectType
+    Children:
+    - Name: Rec_BOOL
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Rec_DINT
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Rec_INT
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Rec_LINT
+      Type: BaseDataVariableType
+      DataType: Int64
+    - Name: Rec_REAL
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Rec_SINT
+      Type: BaseDataVariableType
+      DataType: SByte
+    - Name: Rec_STRING
+      Type: BaseDataVariableType
+      DataType: String
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/SysTestODBCApp/DataStores/DBRecipeCLX2"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+- Name: RecipeCLX3
+  Id: g=6ba1b7d200256e75e2e1a375ad51f0f2
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Rec_BOOL
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Rec_DINT
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Rec_INT
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Rec_LINT
+      Type: BaseDataVariableType
+      DataType: Int64
+    - Name: Rec_REAL
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Rec_SINT
+      Type: BaseDataVariableType
+      DataType: SByte
+    - Name: Rec_STRING
+      Type: BaseDataVariableType
+      DataType: String
+  - Class: Reference
+    Target: ns=32;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/MyRecipe_ICE1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Type: BaseObjectType
+    Children:
+    - Name: Rec_BOOL
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Rec_DINT
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Rec_INT
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Rec_LINT
+      Type: BaseDataVariableType
+      DataType: Int64
+    - Name: Rec_REAL
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Rec_SINT
+      Type: BaseDataVariableType
+      DataType: SByte
+    - Name: Rec_STRING
+      Type: BaseDataVariableType
+      DataType: String
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/SysTestODBCApp/DataStores/DBRecipeCLX3"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+- Name: RecipeCLX4
+  Id: g=8e588b428e162f77a029f2de141ac717
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: Rec_BOOL
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Rec_DINT
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Rec_INT
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Rec_LINT
+      Type: BaseDataVariableType
+      DataType: Int64
+    - Name: Rec_REAL
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Rec_SINT
+      Type: BaseDataVariableType
+      DataType: SByte
+    - Name: Rec_STRING
+      Type: BaseDataVariableType
+      DataType: String
+  - Class: Reference
+    Target: ns=32;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=32;i=60
+    Direction: Forward
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/MyRecipe_ICE1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Type: BaseObjectType
+    Children:
+    - Name: Rec_BOOL
+      Type: BaseDataVariableType
+      DataType: Boolean
+    - Name: Rec_DINT
+      Type: BaseDataVariableType
+      DataType: Int32
+    - Name: Rec_INT
+      Type: BaseDataVariableType
+      DataType: Int16
+    - Name: Rec_LINT
+      Type: BaseDataVariableType
+      DataType: Int64
+    - Name: Rec_REAL
+      Type: BaseDataVariableType
+      DataType: Float
+    - Name: Rec_SINT
+      Type: BaseDataVariableType
+      DataType: SByte
+    - Name: Rec_STRING
+      Type: BaseDataVariableType
+      DataType: String
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/SysTestODBCApp/DataStores/DBRecipeCLX4"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"

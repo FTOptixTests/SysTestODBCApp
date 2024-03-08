@@ -1,0 +1,12 @@
+Name: Variables
+Type: FolderType
+Children:
+- File: Config/Config.yaml
+- File: HB/HB.yaml
+- File: System/System.yaml
+- File: ScrewToScreen/ScrewToScreen.yaml
+- File: TestVar/TestVar.yaml
+- File: SynchAlarms/SynchAlarms.yaml
+- File: Features/Features.yaml
+- File: ScreenToScrew/ScreenToScrew.yaml
+- File: RetentiveVar/RetentiveVar.yaml

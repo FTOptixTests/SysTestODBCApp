@@ -1,0 +1,27 @@
+Name: 'Run-time scripts'
+Type: FolderType
+Children:
+- Name: GetIPAddress
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: GetIP
+- File: CPUAndRAMUsage/CPUAndRAMUsage.yaml
+- File: CustomEventLogger/CustomEventLogger.yaml
+- File: BuildInAlarmCounter/BuildInAlarmCounter.yaml
+- File: XYChart/XYChart.yaml
+- File: Email/Email.yaml
+- Name: LanguageSwitch
+  Id: g=023dde17ddfeb309dccbaaa97cdc0a94
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: IncreaseVal
+    Children:
+    - Name: ns=0;InputArguments
+      Type: BaseVariableType
+      DataType: Argument
+      ReferenceType: HasProperty
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":296},"Body":{"Name":"VarName","DataType":{"Id":12},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}},{"TypeId":{"Id":296},"Body":{"Name":"VarStatus","DataType":{"Id":1},"ValueRank":-1,"ArrayDimensions":[],"Description":{"NamespaceIndex":-1,"LocaleId":"","Text":""}}}]

@@ -1,0 +1,75 @@
+Name: 'Program:EOI_Data1'
+Type: FolderType
+Children:
+- Name: aTrend_Real_P
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EOI_Data1.aTrend_Real_P"
+- Name: aU1_Array_1_Real_P
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EOI_Data1.aU1_Array_1_Real_P"
+- Name: Tk100_FlowRate
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EOI_Data1.Tk100_FlowRate"
+- Name: Tk100_Level
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EOI_Data1.Tk100_Level"
+- Name: Tk100_Temp
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EOI_Data1.Tk100_Temp"
+- Name: Tk10_Supply_Flow
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EOI_Data1.Tk10_Supply_Flow"
+- Name: Tk10_Supply_Pressure
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EOI_Data1.Tk10_Supply_Pressure"
+- Name: Tk200_FlowRate
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EOI_Data1.Tk200_FlowRate"
+- Name: Tk20_Supply_Pressure
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:EOI_Data1.Tk20_Supply_Pressure"

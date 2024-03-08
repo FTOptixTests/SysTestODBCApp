@@ -1,0 +1,1859 @@
+Name: LInt
+Type: FolderType
+Children:
+- Name: LIntPE1SumOpacity
+  Type: TypeSum
+  DataType: Int64
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PT00"
+    - Name: Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CT00"
+    - Name: Source2
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PA[0]"
+    - Name: Source3
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CS/L00"
+    - Name: Source4
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PT01"
+    - Name: Source5
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CT01"
+    - Name: Source6
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PA[1]"
+    - Name: Source7
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CS/L01"
+    - Name: Source8
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PT02"
+    - Name: Source9
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CT02"
+    - Name: Source10
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PA[2]"
+    - Name: Source11
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CS/L02"
+    - Name: Source12
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PT03"
+    - Name: Source13
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CT03"
+    - Name: Source14
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PA[3]"
+    - Name: Source15
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CS/L03"
+    - Name: Source16
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PT04"
+    - Name: Source17
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CT04"
+    - Name: Source18
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PA[4]"
+    - Name: Source19
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CS/L04"
+    - Name: Source20
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PT05"
+    - Name: Source21
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CT05"
+    - Name: Source22
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PA[5]"
+    - Name: Source23
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CS/L05"
+    - Name: Source24
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PT06"
+- Name: LIntPE2SumOpacity
+  Type: TypeSum
+  DataType: Int64
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CT06"
+    - Name: Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PA[6]"
+    - Name: Source2
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CS/L06"
+    - Name: Source3
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PT07"
+    - Name: Source4
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CT07"
+    - Name: Source5
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PA[7]"
+    - Name: Source6
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CS/L07"
+    - Name: Source7
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PT08"
+    - Name: Source8
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CT08"
+    - Name: Source9
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PA[8]"
+    - Name: Source10
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CS/L08"
+    - Name: Source11
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PT09"
+    - Name: Source12
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CT09"
+    - Name: Source13
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PA[9]"
+    - Name: Source14
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CS/L09"
+    - Name: Source15
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PT10"
+    - Name: Source16
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CT10"
+    - Name: Source17
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PA[10]"
+    - Name: Source18
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CS/L10"
+    - Name: Source19
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PT11"
+    - Name: Source20
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CT11"
+    - Name: Source21
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PA[11]"
+    - Name: Source22
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CS/L11"
+    - Name: Source23
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PT12"
+    - Name: Source24
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CT12"
+- Name: LIntPE3SumOpacity
+  Type: TypeSum
+  DataType: Int64
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PA[12]"
+    - Name: Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CS/L12"
+    - Name: Source2
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PT13"
+    - Name: Source3
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CT13"
+    - Name: Source4
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PA[13]"
+    - Name: Source5
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CS/L13"
+    - Name: Source6
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PT14"
+    - Name: Source7
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CT14"
+    - Name: Source8
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PA[14]"
+    - Name: Source9
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CS/L14"
+    - Name: Source10
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PT15"
+    - Name: Source11
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CT15"
+    - Name: Source12
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PA[15]"
+    - Name: Source13
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CS/L15"
+    - Name: Source14
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PT16"
+    - Name: Source15
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CT16"
+    - Name: Source16
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PA[16]"
+    - Name: Source17
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CS/L16"
+    - Name: Source18
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PT17"
+    - Name: Source19
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CT17"
+    - Name: Source20
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PA[17]"
+    - Name: Source21
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CS/L17"
+    - Name: Source22
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PT18"
+    - Name: Source23
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CT18"
+    - Name: Source24
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PA[18]"
+- Name: LIntPE4SumOpacity
+  Type: TypeSum
+  DataType: Int64
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CS/L18"
+    - Name: Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PT19"
+    - Name: Source2
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CT19"
+    - Name: Source3
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PA[19]"
+    - Name: Source4
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CS/L19"
+    - Name: Source5
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PT20"
+    - Name: Source6
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CT20"
+    - Name: Source7
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PA[20]"
+    - Name: Source8
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CS/L20"
+    - Name: Source9
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PT21"
+    - Name: Source10
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CT21"
+    - Name: Source11
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PA[21]"
+    - Name: Source12
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CS/L21"
+    - Name: Source13
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PT22"
+    - Name: Source14
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CT22"
+    - Name: Source15
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PA[22]"
+    - Name: Source16
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CS/L22"
+    - Name: Source17
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PT23"
+    - Name: Source18
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CT23"
+    - Name: Source19
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PA[23]"
+    - Name: Source20
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CS/L23"
+    - Name: Source21
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PT24"
+    - Name: Source22
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CT24"
+    - Name: Source23
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PA[24]"
+    - Name: Source24
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CS/L24"
+- Name: LIntPE1SumFillColor
+  Type: TypeSum
+  DataType: Int64
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PT00"
+    - Name: Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CT00"
+    - Name: Source2
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PA[0]"
+    - Name: Source3
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CS/L00"
+    - Name: Source4
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PT01"
+    - Name: Source5
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CT01"
+    - Name: Source6
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PA[1]"
+    - Name: Source7
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CS/L01"
+    - Name: Source8
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PT02"
+    - Name: Source9
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CT02"
+    - Name: Source10
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PA[2]"
+    - Name: Source11
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CS/L02"
+    - Name: Source12
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PT03"
+    - Name: Source13
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CT03"
+    - Name: Source14
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PA[3]"
+    - Name: Source15
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CS/L03"
+    - Name: Source16
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PT04"
+    - Name: Source17
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CT04"
+    - Name: Source18
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PA[4]"
+    - Name: Source19
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CS/L04"
+    - Name: Source20
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PT05"
+    - Name: Source21
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CT05"
+    - Name: Source22
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PA[5]"
+    - Name: Source23
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CS/L05"
+    - Name: Source24
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PT06"
+- Name: LIntPE2SumFillColor
+  Type: TypeSum
+  DataType: Int64
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CT06"
+    - Name: Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PA[6]"
+    - Name: Source2
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CS/L06"
+    - Name: Source3
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PT07"
+    - Name: Source4
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CT07"
+    - Name: Source5
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PA[7]"
+    - Name: Source6
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CS/L07"
+    - Name: Source7
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PT08"
+    - Name: Source8
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CT08"
+    - Name: Source9
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PA[8]"
+    - Name: Source10
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CS/L08"
+    - Name: Source11
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PT09"
+    - Name: Source12
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CT09"
+    - Name: Source13
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PA[9]"
+    - Name: Source14
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CS/L09"
+    - Name: Source15
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PT10"
+    - Name: Source16
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CT10"
+    - Name: Source17
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PA[10]"
+    - Name: Source18
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CS/L10"
+    - Name: Source19
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PT11"
+    - Name: Source20
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CT11"
+    - Name: Source21
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PA[11]"
+    - Name: Source22
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CS/L11"
+    - Name: Source23
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PT12"
+    - Name: Source24
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CT12"
+- Name: LIntPE3SumFillColor
+  Type: TypeSum
+  DataType: Int64
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PA[12]"
+    - Name: Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CS/L12"
+    - Name: Source2
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PT13"
+    - Name: Source3
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CT13"
+    - Name: Source4
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PA[13]"
+    - Name: Source5
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CS/L13"
+    - Name: Source6
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PT14"
+    - Name: Source7
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CT14"
+    - Name: Source8
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PA[14]"
+    - Name: Source9
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CS/L14"
+    - Name: Source10
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PT15"
+    - Name: Source11
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CT15"
+    - Name: Source12
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PA[15]"
+    - Name: Source13
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CS/L15"
+    - Name: Source14
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PT16"
+    - Name: Source15
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CT16"
+    - Name: Source16
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PA[16]"
+    - Name: Source17
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CS/L16"
+    - Name: Source18
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PT17"
+    - Name: Source19
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CT17"
+    - Name: Source20
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PA[17]"
+    - Name: Source21
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CS/L17"
+    - Name: Source22
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PT18"
+    - Name: Source23
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CT18"
+    - Name: Source24
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PA[18]"
+- Name: LIntPE4SumFillColor
+  Type: TypeSum
+  DataType: Int64
+  Children:
+  - Name: ExpressionEvaluator1
+    Type: ExpressionEvaluator
+    Children:
+    - Name: Source0
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CS/L18"
+    - Name: Source1
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PT19"
+    - Name: Source2
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CT19"
+    - Name: Source3
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PA[19]"
+    - Name: Source4
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredLINT_CS/L19"
+    - Name: Source5
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/ScatteredLINT_PT20"
+    - Name: Source6
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CT20"
+    - Name: Source7
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PA[20]"
+    - Name: Source8
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CS/L20"
+    - Name: Source9
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PT21"
+    - Name: Source10
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredLINT_CT21"
+    - Name: Source11
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:Photoeye/ScatteredLINT_PA[21]"
+    - Name: Source12
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CS/L21"
+    - Name: Source13
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PT22"
+    - Name: Source14
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CT22"
+    - Name: Source15
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PA[22]"
+    - Name: Source16
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredLINT_CS/L22"
+    - Name: Source17
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:Photoeye/ScatteredLINT_PT23"
+    - Name: Source18
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CT23"
+    - Name: Source19
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PA[23]"
+    - Name: Source20
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CS/L23"
+    - Name: Source21
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PT24"
+    - Name: Source22
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CT24"
+    - Name: Source23
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:Photoeye/ScatteredLINT_PA[24]"
+    - Name: Source24
+      Type: BaseDataVariableType
+      DataType: BaseDataType
+      ReferenceType: HasSource
+      Children:
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredLINT_CS/L24"

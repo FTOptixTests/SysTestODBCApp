@@ -1,0 +1,13 @@
+Name: 'Program:S13_GenHlth'
+Type: FolderType
+Children:
+- Name: info
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [11]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S13_GenHlth.info"

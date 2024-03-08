@@ -1,0 +1,36 @@
+Name: Alarms
+Id: g=3293e7cd8de0bb06cc725e017a984470
+Type: AlarmsCategoryFolder
+Children:
+- Name: AlarmCreator
+  Id: g=8c67da067ba37a9c7a9a3e6bfc1ac75a
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Id: g=aacf17b378d4597516825618823a0c24
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Name: ConfigAlarmsSize
+    Id: g=820a73507f91252e498bf03af2b005ce
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 50
+  - Name: IbaSize
+    Id: g=9d56b9e347127f47ccc9fd1e70227071
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 100
+  - Name: DriverName
+    Id: g=208e72e84e6616fa2803671d89517b58
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "RAEtherNet_IPDriver"
+  - Name: TotalAlarmsInProject
+    Id: g=afdd889c166aca494f35714f096dacca
+    Type: BaseDataVariableType
+    DataType: Int32
+    Value: 1400
+  - Class: Method
+    Name: CreateAlarms
+    Id: g=65668c8cd69ac7455e2598b575a590c8

@@ -1,0 +1,58 @@
+Name: CountNodesLogic
+Type: FolderType
+Children:
+- Name: CountNodesLogic
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: CountNodes
+  - Name: show_BaseData
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Value: true
+  - Name: show_Model
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: show_UI
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: show_Alarms
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: show_Recipes
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: show_Loggers
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: show_DataStores
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: show_Reports
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: show_OPC_UA
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: show_CommDriversTags
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: show_NetLogic
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: show_Users
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: show_Translations
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: show_Retentivity
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: show_Converters
+    Type: BaseDataVariableType
+    DataType: Boolean

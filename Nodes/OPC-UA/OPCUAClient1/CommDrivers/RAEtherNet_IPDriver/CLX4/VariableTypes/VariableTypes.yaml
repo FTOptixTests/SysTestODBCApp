@@ -1,0 +1,87 @@
+Name: VariableTypes
+Id: ns=8;g=a8e5b712cd40a65ef4cc4eac5c7f1a23
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"VariableTypes"}
+Children:
+- Name: ns=8;HB_EOI3
+  Id: ns=8;g=6e705ccc6e1910edaa1c8ae9bd58b76d
+  Supertype: TagStructure
+  DataType: ns=8;HB_EOI3
+  ValueRank: Any
+  Children:
+  - Name: ns=8;HB1
+    Id: ns=8;g=608208e5d60bc52636527e81632fb515
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"HB1"}
+    ModellingRule: None
+    ValueRank: Any
+  - Name: ns=8;HB2
+    Id: ns=8;g=6fae344db36291840ad8e51da5ae5493
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"HB2"}
+    ModellingRule: None
+    ValueRank: Any
+  - Name: ns=8;HB_Ok
+    Id: ns=8;g=51420ebfd735ef1da42d0efbe5ae6ccd
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"HB_Ok"}
+    ModellingRule: None
+    ValueRank: Any
+  - Name: ns=8;ONS
+    Id: ns=8;g=f6c96bea4a6886bc2bb85512d60e47dd
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"ONS"}
+    ModellingRule: None
+    ValueRank: Any
+  - Name: ns=8;Timer
+    Id: ns=8;g=dc2f444c8727f2510d7517127a81dfa0
+    Type: ns=8;TIMER3
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"Timer"}
+    ModellingRule: None
+    ValueRank: Any
+- Name: ns=8;TIMER3
+  Id: ns=8;g=16850def9ab4331892df74e0e8179760
+  Supertype: TagStructure
+  DataType: ns=8;TIMER3
+  ValueRank: Any
+  Children:
+  - Name: ns=8;ACC
+    Id: ns=8;g=5e7a3c83037aed81e1d500fd076d17a7
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"ACC"}
+    ModellingRule: None
+    ValueRank: Any
+  - Name: ns=8;DN
+    Id: ns=8;g=d4c1455b87fbeef9f4c59338806d83ad
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"DN"}
+    ModellingRule: None
+    ValueRank: Any
+  - Name: ns=8;EN
+    Id: ns=8;g=4aea393113a0b0781070e486ade4e3b7
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"EN"}
+    ModellingRule: None
+    ValueRank: Any
+  - Name: ns=8;PRE
+    Id: ns=8;g=4b2fcc159e77fa4262a1a7e49993d2a4
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"PRE"}
+    ModellingRule: None
+    ValueRank: Any
+  - Name: ns=8;TT
+    Id: ns=8;g=cdf235cfabaf7d2ce46c713c9b6ed0be
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"TT"}
+    ModellingRule: None
+    ValueRank: Any

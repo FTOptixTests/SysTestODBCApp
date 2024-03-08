@@ -1,0 +1,11 @@
+Name: 'Program:Framework'
+Type: FolderType
+Children:
+- Name: Controller_Name
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Framework.Controller_Name"

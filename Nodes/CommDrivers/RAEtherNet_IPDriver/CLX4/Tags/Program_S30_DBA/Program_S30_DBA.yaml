@@ -1,0 +1,254 @@
+Name: 'Program:S30_DBA'
+Type: FolderType
+Children:
+- Name: CurrentAlarmTransitionCmp
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.CurrentAlarmTransitionCmp"
+- Name: ExpectedAlarmsCLX
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.ExpectedAlarmsCLX"
+- Name: ACC
+  Id: g=7ad8bccfaeac69dd29fc036b699e8e3d
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.AutoSequenceStep_Dwell.ACC"
+- Name: UniqoAckAll
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoAckAll"
+- Name: UniqoAckCounter
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoAckCounter"
+- Name: UniqoAckFinished
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoAckFinished"
+- Name: UniqoAckOns
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoAckOns"
+- Name: UniqoActiveAlarmsEOI1
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoActiveAlarmsEOI1"
+- Name: UniqoActiveAlarmsEOI2
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoActiveAlarmsEOI2"
+- Name: UniqoActiveAlarmsEOI3
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoActiveAlarmsEOI3"
+- Name: UniqoActiveAlarmsEOI4
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoActiveAlarmsEOI4"
+- Name: UniqoAlarmsInitTimer
+  Type: ns=49;TIMER3
+  DataType: ns=49;TIMER3
+  Children:
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S30_DBA.UniqoAlarmsInitTimer.ACC"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S30_DBA.UniqoAlarmsInitTimer.DN"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S30_DBA.UniqoAlarmsInitTimer.EN"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S30_DBA.UniqoAlarmsInitTimer.PRE"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S30_DBA.UniqoAlarmsInitTimer.TT"
+- Name: UniqoConfirmAll
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoConfirmAll"
+- Name: UniqoEnable
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoEnable"
+- Name: UniqoInitAlarmsLatch
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoInitAlarmsLatch"
+- Name: UniqoInitAlarmsStep
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoInitAlarmsStep"
+- Name: UniqoRstCounter
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoRstCounter"
+- Name: UniqoRstFinished
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoRstFinished"
+- Name: UniqoRstOns
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoRstOns"
+- Name: UniqoVerifyKnowStateDelay
+  Type: ns=49;TIMER3
+  DataType: ns=49;TIMER3
+  Children:
+  - Name: ACC
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S30_DBA.UniqoVerifyKnowStateDelay.ACC"
+  - Name: DN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S30_DBA.UniqoVerifyKnowStateDelay.DN"
+  - Name: EN
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S30_DBA.UniqoVerifyKnowStateDelay.EN"
+  - Name: PRE
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S30_DBA.UniqoVerifyKnowStateDelay.PRE"
+  - Name: TT
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S30_DBA.UniqoVerifyKnowStateDelay.TT"
+- Name: UniqoVerifyKnowStateLatch
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.UniqoVerifyKnowStateLatch"
+- Name: Uniqo_Alarms_AA
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [625]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S30_DBA.Uniqo_Alarms_AA"

@@ -1,0 +1,195 @@
+Name: XYChart
+Type: FolderType
+Children:
+- Name: XYChartArray1
+  Type: BaseDataVariableType
+  DataType: Number
+  ValueRank: 2
+  ArrayDimensions: [3,2]
+  Value: 
+   {
+    "Type": 6,
+    "Dimensions": [3,2],
+    "Body": [
+     0,0,
+     0,0,
+     0,0
+    ]
+   }
+- Name: XYChartArray2
+  Type: BaseDataVariableType
+  DataType: Number
+  ValueRank: 2
+  ArrayDimensions: [3,2]
+  Value: 
+   {
+    "Type": 6,
+    "Dimensions": [3,2],
+    "Body": [
+     0,0,
+     0,0,
+     0,0
+    ]
+   }
+- Name: XYChartArray1_0_0
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray1[0,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: XYChartArray1_0_1
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray1[0,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: XYChartArray1_1_0
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray1[1,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: XYChartArray1_1_1
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray1[1,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: XYChartArray1_2_0
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray1[2,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: XYChartArray1_2_1
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray1[2,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 2
+- Name: XYChartArray2_0_0
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray2[0,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: XYChartArray2_0_1
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray2[0,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: XYChartArray2_1_0
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray2[1,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: XYChartArray2_1_1
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray2[1,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: XYChartArray2_2_0
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray2[2,0]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: XYChartArray2_2_1
+  Type: BaseDataVariableType
+  DataType: Int16
+  Children:
+  - Name: DynamicLink
+    Type: DynamicLink
+    DataType: NodePath
+    Value: "../XYChartArray2[2,1]"
+    Children:
+    - Name: Mode
+      Type: BaseVariableType
+      DataType: DynamicLinkMode
+      Value: 1
+- Name: XYChartBuffer1
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: XYChartBuffer2
+  Type: BaseDataVariableType
+  DataType: Int16

@@ -1,0 +1,7 @@
+Name: WebBrowser
+Type: FolderType
+Children:
+- Name: WB_Visible
+  Id: g=b27ca569f0e9b09fb10100d660128514
+  Type: BaseDataVariableType
+  DataType: Boolean

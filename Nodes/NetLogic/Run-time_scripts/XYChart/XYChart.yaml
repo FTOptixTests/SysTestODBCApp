@@ -1,0 +1,9 @@
+Name: XYChart
+Type: FolderType
+Children:
+- Name: UpdateXYChart
+  Id: g=53c18aa2afbb8297a26d43153f01803b
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: changedValuesXYChart

@@ -1,0 +1,6 @@
+Name: ns=8;CommDrivers
+Id: ns=8;g=eb7162096f6d096005892a571f8c37c7
+Type: CommDriversCategoryFolder
+DisplayName: {"LocaleId":"","Text":"CommDrivers"}
+Children:
+- File: RAEtherNet_IPDriver/RAEtherNet_IPDriver.yaml

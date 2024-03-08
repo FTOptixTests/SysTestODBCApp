@@ -1,0 +1,36 @@
+Name: RetentiveVar
+Id: g=baf1e6ac0e16d2ba6f2d4368e1938bf3
+Type: FolderType
+Children:
+- Name: RetDint
+  Id: g=9b5006afa4c8f9279b862b1e2443f7f2
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: RetDintP
+  Id: g=9757889b6d038ac86ef374c991f7ec33
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: RetFloat
+  Id: g=59c3afb774ca331d5b896119ad96129f
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: RetFloatP
+  Id: g=d66fda35c8a17ad7c937fde9ffd721a3
+  Type: BaseDataVariableType
+  DataType: Float
+- Name: RetInt
+  Id: g=fdf2286372e7b94bb79d339ed2fb979b
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: RetIntP
+  Id: g=c192546a444f1aff3d795de8996acbfc
+  Type: BaseDataVariableType
+  DataType: Int16
+- Name: RetUint
+  Id: g=d23497dc5b2989edcf8b9bedfa53818b
+  Type: BaseDataVariableType
+  DataType: UInt32
+- Name: RetUintP
+  Id: g=622959c317b3c56c4c3ee02641c9582b
+  Type: BaseDataVariableType
+  DataType: UInt32

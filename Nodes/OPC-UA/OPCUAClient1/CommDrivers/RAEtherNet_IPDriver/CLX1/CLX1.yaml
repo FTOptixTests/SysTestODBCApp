@@ -1,0 +1,13 @@
+Name: ns=8;CLX1
+Id: ns=8;g=2950942bcd0405c21540be7ba2431823
+Type: RAEtherNetIPStation
+DisplayName: {"LocaleId":"","Text":"CLX1"}
+Children:
+- File: Tags/Tags.yaml
+- Name: Types
+  Id: ns=8;g=a3526ae1323d6c8cff1980aba6a709ca
+  Type: FolderType
+  DisplayName: {"LocaleId":"","Text":"Types"}
+  Children:
+  - File: DataTypes/DataTypes.yaml
+  - File: VariableTypes/VariableTypes.yaml

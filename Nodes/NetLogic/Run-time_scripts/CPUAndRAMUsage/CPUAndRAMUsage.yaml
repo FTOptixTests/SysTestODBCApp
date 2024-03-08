@@ -1,0 +1,5 @@
+Name: CPUAndRAMUsage
+Type: FolderType
+Children:
+- File: CPU/CPU.yaml
+- File: RAM/RAM.yaml

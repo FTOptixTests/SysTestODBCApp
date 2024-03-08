@@ -1,0 +1,69 @@
+Name: ns=8;Controller Tags
+Id: ns=8;g=82397c14ee1569a4cda751d94113553e
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Controller Tags"}
+Children:
+- Name: ns=8;EOI5_HB
+  Id: ns=8;g=51aeb13debd6500d6f98ad7fa519c54d
+  Type: ns=8;HB_EOI
+  DataType: ns=8;HB_EOI
+  DisplayName: {"LocaleId":"","Text":"EOI5_HB"}
+  Value: 
+   {
+    "TypeId": {
+     "IdType": 2,
+     "Id": "d14c05053d224da806d4719762ec5838",
+     "Namespace": 8
+    },
+    "Body": {
+     "HB1": true,
+     "HB2": true,
+     "HB_Ok": true,
+     "ONS": 2,
+     "Timer": {
+      "TypeId": {
+       "IdType": 2,
+       "Id": "a90cfdb3aee26f57f1eecc876cece517",
+       "Namespace": 8
+      },
+      "Body": {
+       "ACC": 226,
+       "DN": false,
+       "EN": true,
+       "PRE": 3000,
+       "TT": true
+      }
+     }
+    }
+   }
+  Children:
+  - Name: ns=8;HB1
+    Id: ns=8;g=1724364499e8f0f9defb881824b474c7
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"HB1"}
+    ValueRank: Any
+  - Name: ns=8;HB2
+    Id: ns=8;g=ac3d945c5a827e05b1cf1c16cba7e3ef
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"HB2"}
+    ValueRank: Any
+  - Name: ns=8;HB_Ok
+    Id: ns=8;g=cb912bce01ed52578bebc3a9c2103331
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"HB_Ok"}
+    ValueRank: Any
+  - Name: ns=8;ONS
+    Id: ns=8;g=7042bac9f39a9168051c7edbceed4024
+    Type: RAEtherNetIPTag
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"ONS"}
+    ValueRank: Any
+  - Name: ns=8;Timer
+    Id: ns=8;g=45ed600ab72db021f09a04b0d9aaafd4
+    Type: ns=8;TIMER
+    DataType: BaseDataType
+    DisplayName: {"LocaleId":"","Text":"Timer"}
+    ValueRank: Any

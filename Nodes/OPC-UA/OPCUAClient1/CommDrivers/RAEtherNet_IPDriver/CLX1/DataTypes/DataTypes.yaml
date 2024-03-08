@@ -1,0 +1,101 @@
+Name: DataTypes
+Id: ns=8;g=568cbc3f541f4b076d7b190a716c0e16
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"DataTypes"}
+Children:
+- Class: DataType
+  Name: ns=8;HB_EOI
+  Id: ns=8;g=d14c05053d224da806d4719762ec5838
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "HB_EOI",
+    "DataType": {
+     "IdType": 2,
+     "Id": "d14c05053d224da806d4719762ec5838",
+     "Namespace": 8
+    },
+    "Fields": [{
+      "Name": "HB1",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HB2",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "HB_Ok",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "ONS",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "Timer",
+      "DataType": {
+       "IdType": 2,
+       "Id": "a90cfdb3aee26f57f1eecc876cece517",
+       "Namespace": 8
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"HB_EOI"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: ns=8;g=0db99d2bf6ea315e8e4a3b7ed83b1d75
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding
+- Class: DataType
+  Name: ns=8;TIMER
+  Id: ns=8;g=a90cfdb3aee26f57f1eecc876cece517
+  Supertype: Structure
+  StructDefinition: 
+   {
+    "Name": "TIMER",
+    "DataType": {
+     "IdType": 2,
+     "Id": "a90cfdb3aee26f57f1eecc876cece517",
+     "Namespace": 8
+    },
+    "Fields": [{
+      "Name": "ACC",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "DN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "EN",
+      "DataType": {
+       "Id": 1
+      }
+     },{
+      "Name": "PRE",
+      "DataType": {
+       "Id": 6
+      }
+     },{
+      "Name": "TT",
+      "DataType": {
+       "Id": 1
+      }
+     }]
+   }
+  DisplayName: {"LocaleId":"","Text":"TIMER"}
+  Children:
+  - Name: ns=0;Default Binary
+    Id: ns=8;g=4eb15427ac9f604ad197ab12674e4339
+    Type: DataTypeEncodingType
+    ModellingRule: None
+    DisplayName: {"LocaleId":"","Text":"Default Binary"}
+    ReferenceType: HasEncoding

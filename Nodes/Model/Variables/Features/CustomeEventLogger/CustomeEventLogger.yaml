@@ -1,0 +1,46 @@
+Name: CustomeEventLogger
+Type: FolderType
+Children:
+- Name: CLX1ScreenChangeRunning
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: CLX1ScreenToScrewRunning
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: CLX1ScrewToScreenRunning
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: CLX1PowerUpRunning
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: CLX1PowerUpRunningChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../CLX1PowerUpRunning"
+- Name: CLX1ScrewToScreenRunningChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../CLX1ScrewToScreenRunning"
+- Name: CLX1ScreenToScrewRunningChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../CLX1ScreenToScrewRunning"
+- Name: CLX1ScreenChangeRunningChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../CLX1ScreenChangeRunning"
+- Name: ButtonClicksCounter
+  Type: BaseDataVariableType
+  DataType: Int32

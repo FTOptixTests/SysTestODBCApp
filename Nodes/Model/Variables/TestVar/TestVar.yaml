@@ -1,0 +1,16 @@
+Name: TestVar
+Type: FolderType
+Children:
+- Name: Srcreen5Toggle
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Screen5Option
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: TowerLight
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Screen16TInc2
+  Id: g=699309347cdc9056921b60f8fd51cc4d
+  Type: BaseDataVariableType
+  DataType: Int16

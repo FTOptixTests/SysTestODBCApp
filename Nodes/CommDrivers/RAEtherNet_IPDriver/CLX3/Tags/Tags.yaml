@@ -1,0 +1,9 @@
+Name: Tags
+Type: FolderType
+Children:
+- File: Controller_Tags/Controller_Tags.yaml
+- File: Program_EOI_Data1/Program_EOI_Data1.yaml
+- File: Program_Framework/Program_Framework.yaml
+- File: Program_Photoeye/Program_Photoeye.yaml
+- File: Program_S22_ScreenToScrew/Program_S22_ScreenToScrew.yaml
+- File: Program_S30_DBA/Program_S30_DBA.yaml

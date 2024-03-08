@@ -1,0 +1,21 @@
+Name: Groups
+Type: FolderType
+Children:
+- Name: guests
+  Id: g=488dd82567e06b0da8ca50ef147fdae2
+  Type: GroupType
+- Name: technicians
+  Id: g=620d02cb66aedd32eaf0700cef5ce6cf
+  Type: GroupType
+- Name: administrators
+  Id: g=1f57f167ad4f4ac8af32601c2863035d
+  Type: GroupType
+- Name: guestsLogged
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: techsLogged
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: adminsLogged
+  Type: BaseDataVariableType
+  DataType: Boolean

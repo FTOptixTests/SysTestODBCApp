@@ -1,0 +1,63 @@
+Name: CustomEventLogger
+Type: FolderType
+Children:
+- Name: ScreenChangeStatus
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "TBM_56_S00_ScreenChg_EN.ControllerEnable"
+- Name: ScreenToScrewStatus
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "TBM_56_S00_ScrnToScrw_EN.Status"
+- Name: ScrewToScreenStatus
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "TBM_56_S00_ScrwToScrn_EN.Status"
+- Name: PowerUpStatus
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "TBM_56_S00_RelayRemoteControl_EN.ControllerEnable"
+- Name: PowerUpStatusChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../PowerUpStatus"
+- Name: ScrewToScreenStatusChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../ScrewToScreenStatus"
+- Name: ScreenToScrewStatusChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../ScreenToScrewStatus"
+- Name: ScreenChangeStatusChanged
+  Type: VariableChangedEventDispatcher
+  Children:
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../ScreenChangeStatus"

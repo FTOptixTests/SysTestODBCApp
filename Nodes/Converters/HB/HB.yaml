@@ -1,0 +1,103 @@
+Name: HB
+Type: FolderType
+Children:
+- Name: HBEOI5
+  Id: g=df8ad46cf5c69ac14a6a92d37ad0698f
+  Supertype: ExpressionEvaluator
+  ReferenceType: HasComponent
+  Children:
+  - Name: Expression
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "{0}==5"
+  - Name: ns=10;Source0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/SysTestODBCApp/Model/Variables/Config/IP/EOI_Nr"
+- Name: HBEOI1
+  Id: g=235bd05f9d987026b09aacac9925c507
+  Supertype: ExpressionEvaluator
+  ReferenceType: HasComponent
+  Children:
+  - Name: Expression
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "{0}==1"
+  - Name: ns=10;Source0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/SysTestODBCApp/Model/Variables/Config/IP/EOI_Nr"
+- Name: HBEOI2
+  Id: g=2d487d70ebab97db8d14627693b7b05a
+  Supertype: ExpressionEvaluator
+  ReferenceType: HasComponent
+  Children:
+  - Name: Expression
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "{0}==2"
+  - Name: ns=10;Source0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/SysTestODBCApp/Model/Variables/Config/IP/EOI_Nr"
+- Name: HBEOI3
+  Id: g=2ac3864a7c3fb1db0cd0d0d402bdda43
+  Supertype: ExpressionEvaluator
+  ReferenceType: HasComponent
+  Children:
+  - Name: Expression
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "{0}==3"
+  - Name: ns=10;Source0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/SysTestODBCApp/Model/Variables/Config/IP/EOI_Nr"
+- Name: HBEOI4
+  Id: g=1750b6f72a73b1bca7f4d9b2b9812bde
+  Supertype: ExpressionEvaluator
+  ReferenceType: HasComponent
+  Children:
+  - Name: Expression
+    Type: BaseDataVariableType
+    DataType: String
+    ReferenceType: HasParameter
+    ModellingRule: Optional
+    Value: "{0}==4"
+  - Name: ns=10;Source0
+    Type: BaseDataVariableType
+    DataType: BaseDataType
+    ReferenceType: HasSource
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "/Objects/SysTestODBCApp/Model/Variables/Config/IP/EOI_Nr"

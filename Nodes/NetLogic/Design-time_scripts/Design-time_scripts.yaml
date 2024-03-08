@@ -1,0 +1,39 @@
+Name: 'Design-time scripts'
+Type: FolderType
+Children:
+- Name: FillNextScreenButton
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: FillNextScreenButtonOnAllScreens
+- Name: FillScreenChangePhotoeyes
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: FillScreenChangePE
+- Name: FillPreviousNextScreenButtons
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: Method1
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+- Name: LinkPEinScrewToScreen
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: Method1
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180

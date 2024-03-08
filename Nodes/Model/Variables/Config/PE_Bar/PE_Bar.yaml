@@ -1,0 +1,23 @@
+Name: PE_Bar
+Type: FolderType
+Children:
+- Name: BarHeight
+  Id: g=89f8da74b9dc58a73e16293337570820
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 450
+- Name: BarWidth
+  Id: g=1c518434c5781241388188b0ae0d8123
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 140
+- Name: BarTopMarginOffset
+  Id: g=cae52bf903a519f0e0f9db58c1e3241c
+  Type: BaseDataVariableType
+  DataType: Int32
+- File: Config/Config.yaml
+- Name: HeightOffset
+  Id: g=6ebb4e668f6ebf270a2f8f02127f3200
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 50

@@ -1,0 +1,6 @@
+Name: Model
+Type: ModelCategoryFolder
+Children:
+- File: Variables/Variables.yaml
+- File: EUDictionary/EUDictionary.yaml
+- File: Email/Email.yaml

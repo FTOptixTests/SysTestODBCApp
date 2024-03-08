@@ -1,0 +1,11 @@
+Name: IP
+Type: FolderType
+Children:
+- Name: IP
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "0"
+- Name: EOI_Nr
+  Type: BaseDataVariableType
+  DataType: Int32
+  Value: 1

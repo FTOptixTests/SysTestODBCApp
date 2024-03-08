@@ -1,0 +1,89 @@
+Name: Email
+Type: FolderType
+Children:
+- Name: PeriodicMailSend
+  Type: NetLogic
+  Children:
+  - Name: Action
+    Type: MethodInvocation
+    Children:
+    - Name: ObjectPointer
+      Type: NodePointer
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType"
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../../../../Commands/VariableCommands@NodeId"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Method
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Toggle"
+    - Class: Reference
+      Target: ns=10;i=98
+      Direction: Forward
+    - Name: InputArguments
+      Type: BaseObjectType
+      Children:
+      - Name: VariableToModify
+        Type: BaseDataVariableType
+        DataType: VariablePointer
+        Description: {"NamespaceIndex":10,"TextId":"ToggleVariableToModifyDescription"}
+        Value: "/Objects/SysTestODBCApp/Model/Email/EmailPeriodicSend"
+      - Name: ArrayIndex
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Description: {"NamespaceIndex":10,"TextId":"ToggleArrayIndexDescription"}
+        ValueRank: ScalarOrOneDimension
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: ExpressionEvaluator1
+      Type: ExpressionEvaluator
+      Children:
+      - Name: Expression
+        Type: BaseDataVariableType
+        DataType: String
+        ReferenceType: HasParameter
+        Value: "{2}||(({0}==5)&&({1}==8))"
+      - Name: ns=10;Source0
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../../CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/Cons_Options[1]"
+      - Name: ns=10;Source2
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../../Model/Email/EmailBypass"
+      - Name: ns=10;Source1
+        Type: BaseDataVariableType
+        DataType: BaseDataType
+        ReferenceType: HasSource
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "../../../../../../../CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/Cons_Options[5]"
+  - Name: Period
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:02:0.0000000"

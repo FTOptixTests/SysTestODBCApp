@@ -1,0 +1,15 @@
+Name: HistogramAndPieChart
+Type: FolderType
+Children:
+- Name: HistogramDataTemplate
+  Id: g=6747fcc2f6271ad59c79fea20e9aae4d
+  Supertype: BaseObjectType
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Float
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Name"
+- File: Instances/Instances.yaml

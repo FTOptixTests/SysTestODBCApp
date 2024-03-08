@@ -1,0 +1,313 @@
+Name: 'Program:S22_ScreenToScrew'
+Type: FolderType
+Children:
+- Name: Actual_ScrnToScrewPBWrite_Type04
+  Type: ScreenToScrew_Expected_Type04
+  DataType: ScreenToScrew_Expected_Type04
+  Children:
+  - Name: Tag00
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type04.Tag00"
+  - Name: Tag01
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type04.Tag01"
+  - Name: Tag02
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type04.Tag02"
+  - Name: Tag03
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type04.Tag03"
+  - Name: Tag04
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type04.Tag04"
+  - Name: Tag05
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type04.Tag05"
+  - Name: Tag06
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type04.Tag06"
+- Name: Actual_ScrnToScrewPBWrite_Type06_CMP
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  ValueRank: OneDimension
+  ArrayDimensions: [324]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type06_CMP"
+- Name: Actual_ScrnToScrewPBWrite_Type07
+  Type: ScreenToScrew_Expected_Type07
+  DataType: ScreenToScrew_Expected_Type07
+  Children:
+  - Name: Tag00
+    Type: RAEtherNetIPTag
+    DataType: Double
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type07.Tag00"
+  - Name: Tag01
+    Type: RAEtherNetIPTag
+    DataType: UInt64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type07.Tag01"
+  - Name: Tag02
+    Type: RAEtherNetIPTag
+    DataType: UInt32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type07.Tag02"
+  - Name: Tag03
+    Type: RAEtherNetIPTag
+    DataType: UInt16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type07.Tag03"
+  - Name: Tag04
+    Type: RAEtherNetIPTag
+    DataType: Byte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type07.Tag04"
+  - Name: Tag05
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type07.Tag05"
+  - Name: Tag06
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Actual_ScrnToScrewPBWrite_Type07.Tag06"
+- Name: Cmd_ScrnToScrwPBWrite_Type04Tag01
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S22_ScreenToScrew.Cmd_ScrnToScrwPBWrite_Type04Tag01"
+- Name: Cmd_ScrnToScrwPBWrite_Type04Tag03
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S22_ScreenToScrew.Cmd_ScrnToScrwPBWrite_Type04Tag03"
+- Name: Cmd_ScrnToScrwPBWrite_Type04Tag05
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S22_ScreenToScrew.Cmd_ScrnToScrwPBWrite_Type04Tag05"
+- Name: Cmd_ScrnToScrwPBWrite_Type07Tag01
+  Id: g=c1d4b1e64dfe1dce29ee121947d4ff17
+  Type: RAEtherNetIPTag
+  DataType: UInt64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S22_ScreenToScrew.Cmd_ScrnToScrwPBWrite_Type07Tag01"
+- Name: Cmd_ScrnToScrwPBWrite_Type07Tag03
+  Id: g=905a3d8c6ec3329255cd398ff6fc42dc
+  Type: RAEtherNetIPTag
+  DataType: UInt16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S22_ScreenToScrew.Cmd_ScrnToScrwPBWrite_Type07Tag03"
+- Name: Cmd_ScrnToScrwPBWrite_Type07Tag05
+  Id: g=cb2ccf87775f7c5483e32392fa71f500
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S22_ScreenToScrew.Cmd_ScrnToScrwPBWrite_Type07Tag05"
+- Name: Cmd_ScrnToScrwPBWrite_Type07Tag06
+  Id: g=c5fee81a97e711b2744670a96bf97d72
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:S22_ScreenToScrew.Cmd_ScrnToScrwPBWrite_Type07Tag06"
+- Name: Expected_ScrnToScrewPBWrite_Type04
+  Type: ScreenToScrew_Expected_Type04
+  DataType: ScreenToScrew_Expected_Type04
+  Children:
+  - Name: Tag00
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type04.Tag00"
+  - Name: Tag01
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type04.Tag01"
+  - Name: Tag02
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type04.Tag02"
+  - Name: Tag03
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type04.Tag03"
+  - Name: Tag04
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type04.Tag04"
+  - Name: Tag05
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type04.Tag05"
+  - Name: Tag06
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type04.Tag06"
+- Name: Expected_ScrnToScrewPBWrite_Type07
+  Type: ScreenToScrew_Expected_Type07
+  DataType: ScreenToScrew_Expected_Type07
+  Children:
+  - Name: Tag00
+    Type: RAEtherNetIPTag
+    DataType: Double
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type07.Tag00"
+  - Name: Tag01
+    Type: RAEtherNetIPTag
+    DataType: UInt64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type07.Tag01"
+  - Name: Tag02
+    Type: RAEtherNetIPTag
+    DataType: UInt32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type07.Tag02"
+  - Name: Tag03
+    Type: RAEtherNetIPTag
+    DataType: UInt16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type07.Tag03"
+  - Name: Tag04
+    Type: RAEtherNetIPTag
+    DataType: Byte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type07.Tag04"
+  - Name: Tag05
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type07.Tag05"
+  - Name: Tag06
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Program:S22_ScreenToScrew.Expected_ScrnToScrewPBWrite_Type07.Tag06"

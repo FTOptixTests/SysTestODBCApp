@@ -1,0 +1,70 @@
+Name: OPCUAClient1
+Id: g=b8f6b84affbcadc5cf08938326c70b9a
+Type: OPCUAClient
+Children:
+- Name: ServerEndpointURL
+  Type: BaseDataVariableType
+  DataType: String
+  Value: "opc.tcp://192.168.1.215:59100"
+- Name: MinimumMessageSecurityMode
+  Type: BaseDataVariableType
+  DataType: MessageSecurityModeEnum
+- Name: MinimumSecurityPolicy
+  Type: BaseDataVariableType
+  DataType: SecurityPolicyEnum
+- Name: UserIdentityType
+  Type: BaseDataVariableType
+  DataType: UserIdentityTypeEnum
+- Name: ConnectionStatus
+  Type: BaseDataVariableType
+  DataType: ConnectionStatusEnum
+  AccessLevel: Read
+- Name: ServerUri
+  Type: BaseDataVariableType
+  DataType: String
+  AccessLevel: Read
+- Name: Events
+  Type: BaseDataVariableType
+  DataType: EventsEnum
+  Value: 1
+- Name: RuntimeConfigurations
+  Type: BaseObjectType
+- Class: Reference
+  Target: ns=22;i=8
+  Direction: Forward
+- Class: Reference
+  Target: ns=22;i=9
+  Direction: Forward
+- Class: Reference
+  Target: ns=22;i=54
+  Direction: Forward
+- Class: Reference
+  Target: ns=22;i=57
+  Direction: Forward
+- Class: Reference
+  Target: ns=22;i=91
+  Direction: Forward
+- Class: Reference
+  Target: ns=22;i=60
+  Direction: Forward
+- Class: Reference
+  Target: ns=22;i=63
+  Direction: Forward
+- Class: Reference
+  Target: ns=22;i=83
+  Direction: Forward
+- Class: Reference
+  Target: ns=22;i=75
+  Direction: Forward
+- Name: VerifyServerIdentity
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: Objects
+  Type: BaseObjectType
+  Children:
+  - Name: ns=8;SysTestOPCApp
+    Id: ns=8;g=163cf355fa293a8e206a4294f715c51b
+    Type: ProjectFolder
+    DisplayName: {"LocaleId":"","Text":"SysTestOPCApp"}
+    Children:
+    - File: CommDrivers/CommDrivers.yaml

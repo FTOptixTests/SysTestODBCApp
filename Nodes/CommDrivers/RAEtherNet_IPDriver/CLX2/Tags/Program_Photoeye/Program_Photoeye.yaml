@@ -1,0 +1,2975 @@
+Name: 'Program:Photoeye'
+Type: FolderType
+Children:
+- Name: NextScreenNumber
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.NextScreenNumber"
+- Name: ScatteredBOOL_PA
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  ValueRank: OneDimension
+  ArrayDimensions: [32]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PA"
+- Name: ScatteredBOOL_PT00
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT00"
+- Name: ScatteredBOOL_PT01
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT01"
+- Name: ScatteredBOOL_PT02
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT02"
+- Name: ScatteredBOOL_PT03
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT03"
+- Name: ScatteredBOOL_PT04
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT04"
+- Name: ScatteredBOOL_PT05
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT05"
+- Name: ScatteredBOOL_PT06
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT06"
+- Name: ScatteredBOOL_PT07
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT07"
+- Name: ScatteredBOOL_PT08
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT08"
+- Name: ScatteredBOOL_PT09
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT09"
+- Name: ScatteredBOOL_PT10
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT10"
+- Name: ScatteredBOOL_PT11
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT11"
+- Name: ScatteredBOOL_PT12
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT12"
+- Name: ScatteredBOOL_PT13
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT13"
+- Name: ScatteredBOOL_PT14
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT14"
+- Name: ScatteredBOOL_PT15
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT15"
+- Name: ScatteredBOOL_PT16
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT16"
+- Name: ScatteredBOOL_PT17
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT17"
+- Name: ScatteredBOOL_PT18
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT18"
+- Name: ScatteredBOOL_PT19
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT19"
+- Name: ScatteredBOOL_PT20
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT20"
+- Name: ScatteredBOOL_PT21
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT21"
+- Name: ScatteredBOOL_PT22
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT22"
+- Name: ScatteredBOOL_PT23
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT23"
+- Name: ScatteredBOOL_PT24
+  Type: RAEtherNetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredBOOL_PT24"
+- Name: ScatteredDINT_PA
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  ValueRank: OneDimension
+  ArrayDimensions: [27]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PA"
+- Name: ScatteredDINT_PT00
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT00"
+- Name: ScatteredDINT_PT01
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT01"
+- Name: ScatteredDINT_PT02
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT02"
+- Name: ScatteredDINT_PT03
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT03"
+- Name: ScatteredDINT_PT04
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT04"
+- Name: ScatteredDINT_PT05
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT05"
+- Name: ScatteredDINT_PT06
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT06"
+- Name: ScatteredDINT_PT07
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT07"
+- Name: ScatteredDINT_PT08
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT08"
+- Name: ScatteredDINT_PT09
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT09"
+- Name: ScatteredDINT_PT10
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT10"
+- Name: ScatteredDINT_PT11
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT11"
+- Name: ScatteredDINT_PT12
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT12"
+- Name: ScatteredDINT_PT13
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT13"
+- Name: ScatteredDINT_PT14
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT14"
+- Name: ScatteredDINT_PT15
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT15"
+- Name: ScatteredDINT_PT16
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT16"
+- Name: ScatteredDINT_PT17
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT17"
+- Name: ScatteredDINT_PT18
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT18"
+- Name: ScatteredDINT_PT19
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT19"
+- Name: ScatteredDINT_PT20
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT20"
+- Name: ScatteredDINT_PT21
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT21"
+- Name: ScatteredDINT_PT22
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT22"
+- Name: ScatteredDINT_PT23
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT23"
+- Name: ScatteredDINT_PT24
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredDINT_PT24"
+- Name: ScatteredINT_PA
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  ValueRank: OneDimension
+  ArrayDimensions: [27]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PA"
+- Name: ScatteredINT_PT00
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT00"
+- Name: ScatteredINT_PT01
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT01"
+- Name: ScatteredINT_PT02
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT02"
+- Name: ScatteredINT_PT03
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT03"
+- Name: ScatteredINT_PT04
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT04"
+- Name: ScatteredINT_PT05
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT05"
+- Name: ScatteredINT_PT06
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT06"
+- Name: ScatteredINT_PT07
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT07"
+- Name: ScatteredINT_PT08
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT08"
+- Name: ScatteredINT_PT09
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT09"
+- Name: ScatteredINT_PT10
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT10"
+- Name: ScatteredINT_PT11
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT11"
+- Name: ScatteredINT_PT12
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT12"
+- Name: ScatteredINT_PT13
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT13"
+- Name: ScatteredINT_PT14
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT14"
+- Name: ScatteredINT_PT15
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT15"
+- Name: ScatteredINT_PT16
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT16"
+- Name: ScatteredINT_PT17
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT17"
+- Name: ScatteredINT_PT18
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT18"
+- Name: ScatteredINT_PT19
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT19"
+- Name: ScatteredINT_PT20
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT20"
+- Name: ScatteredINT_PT21
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT21"
+- Name: ScatteredINT_PT22
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT22"
+- Name: ScatteredINT_PT23
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT23"
+- Name: ScatteredINT_PT24
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT24"
+- Name: ScatteredINT_PT25
+  Type: RAEtherNetIPTag
+  DataType: Int16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredINT_PT25"
+- Name: ScatteredLINT_PA
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  ValueRank: OneDimension
+  ArrayDimensions: [27]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PA"
+- Name: ScatteredLINT_PT00
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT00"
+- Name: ScatteredLINT_PT01
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT01"
+- Name: ScatteredLINT_PT02
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT02"
+- Name: ScatteredLINT_PT03
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT03"
+- Name: ScatteredLINT_PT04
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT04"
+- Name: ScatteredLINT_PT05
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT05"
+- Name: ScatteredLINT_PT06
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT06"
+- Name: ScatteredLINT_PT07
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT07"
+- Name: ScatteredLINT_PT08
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT08"
+- Name: ScatteredLINT_PT09
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT09"
+- Name: ScatteredLINT_PT10
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT10"
+- Name: ScatteredLINT_PT11
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT11"
+- Name: ScatteredLINT_PT12
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT12"
+- Name: ScatteredLINT_PT13
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT13"
+- Name: ScatteredLINT_PT14
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT14"
+- Name: ScatteredLINT_PT15
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT15"
+- Name: ScatteredLINT_PT16
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT16"
+- Name: ScatteredLINT_PT17
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT17"
+- Name: ScatteredLINT_PT18
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT18"
+- Name: ScatteredLINT_PT19
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT19"
+- Name: ScatteredLINT_PT20
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT20"
+- Name: ScatteredLINT_PT21
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT21"
+- Name: ScatteredLINT_PT22
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT22"
+- Name: ScatteredLINT_PT23
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT23"
+- Name: ScatteredLINT_PT24
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredLINT_PT24"
+- Name: ScatteredREAL_PA
+  Type: RAEtherNetIPTag
+  DataType: Float
+  ValueRank: OneDimension
+  ArrayDimensions: [27]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PA"
+- Name: ScatteredREAL_PT00
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT00"
+- Name: ScatteredREAL_PT01
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT01"
+- Name: ScatteredREAL_PT02
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT02"
+- Name: ScatteredREAL_PT03
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT03"
+- Name: ScatteredREAL_PT04
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT04"
+- Name: ScatteredREAL_PT05
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT05"
+- Name: ScatteredREAL_PT06
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT06"
+- Name: ScatteredREAL_PT07
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT07"
+- Name: ScatteredREAL_PT08
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT08"
+- Name: ScatteredREAL_PT09
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT09"
+- Name: ScatteredREAL_PT10
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT10"
+- Name: ScatteredREAL_PT11
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT11"
+- Name: ScatteredREAL_PT12
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT12"
+- Name: ScatteredREAL_PT13
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT13"
+- Name: ScatteredREAL_PT14
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT14"
+- Name: ScatteredREAL_PT15
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT15"
+- Name: ScatteredREAL_PT16
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT16"
+- Name: ScatteredREAL_PT17
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT17"
+- Name: ScatteredREAL_PT18
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT18"
+- Name: ScatteredREAL_PT19
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT19"
+- Name: ScatteredREAL_PT20
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT20"
+- Name: ScatteredREAL_PT21
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT21"
+- Name: ScatteredREAL_PT22
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT22"
+- Name: ScatteredREAL_PT23
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT23"
+- Name: ScatteredREAL_PT24
+  Type: RAEtherNetIPTag
+  DataType: Float
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredREAL_PT24"
+- Name: ScatteredSINT_PA
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  ValueRank: OneDimension
+  ArrayDimensions: [27]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PA"
+- Name: ScatteredSINT_PT00
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT00"
+- Name: ScatteredSINT_PT01
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT01"
+- Name: ScatteredSINT_PT02
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT02"
+- Name: ScatteredSINT_PT03
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT03"
+- Name: ScatteredSINT_PT04
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT04"
+- Name: ScatteredSINT_PT05
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT05"
+- Name: ScatteredSINT_PT06
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT06"
+- Name: ScatteredSINT_PT07
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT07"
+- Name: ScatteredSINT_PT08
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT08"
+- Name: ScatteredSINT_PT09
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT09"
+- Name: ScatteredSINT_PT10
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT10"
+- Name: ScatteredSINT_PT11
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT11"
+- Name: ScatteredSINT_PT12
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT12"
+- Name: ScatteredSINT_PT13
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT13"
+- Name: ScatteredSINT_PT14
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT14"
+- Name: ScatteredSINT_PT15
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT15"
+- Name: ScatteredSINT_PT16
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT16"
+- Name: ScatteredSINT_PT17
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT17"
+- Name: ScatteredSINT_PT18
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT18"
+- Name: ScatteredSINT_PT19
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT19"
+- Name: ScatteredSINT_PT20
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT20"
+- Name: ScatteredSINT_PT21
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT21"
+- Name: ScatteredSINT_PT22
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT22"
+- Name: ScatteredSINT_PT23
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT23"
+- Name: ScatteredSINT_PT24
+  Type: RAEtherNetIPTag
+  DataType: SByte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSINT_PT24"
+- Name: ScatteredSTRING_PA
+  Type: RAEtherNetIPTag
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [27]
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PA"
+- Name: ScatteredSTRING_PT00
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT00"
+- Name: ScatteredSTRING_PT01
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT01"
+- Name: ScatteredSTRING_PT02
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT02"
+- Name: ScatteredSTRING_PT03
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT03"
+- Name: ScatteredSTRING_PT04
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT04"
+- Name: ScatteredSTRING_PT05
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT05"
+- Name: ScatteredSTRING_PT06
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT06"
+- Name: ScatteredSTRING_PT07
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT07"
+- Name: ScatteredSTRING_PT08
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT08"
+- Name: ScatteredSTRING_PT09
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT09"
+- Name: ScatteredSTRING_PT10
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT10"
+- Name: ScatteredSTRING_PT11
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT11"
+- Name: ScatteredSTRING_PT12
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT12"
+- Name: ScatteredSTRING_PT13
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT13"
+- Name: ScatteredSTRING_PT14
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT14"
+- Name: ScatteredSTRING_PT15
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT15"
+- Name: ScatteredSTRING_PT16
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT16"
+- Name: ScatteredSTRING_PT17
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT17"
+- Name: ScatteredSTRING_PT18
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT18"
+- Name: ScatteredSTRING_PT19
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT19"
+- Name: ScatteredSTRING_PT20
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT20"
+- Name: ScatteredSTRING_PT21
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT21"
+- Name: ScatteredSTRING_PT22
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT22"
+- Name: ScatteredSTRING_PT23
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT23"
+- Name: ScatteredSTRING_PT24
+  Type: RAEtherNetIPTag
+  DataType: String
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Program:Photoeye.ScatteredSTRING_PT24"
+- Name: ScatteredUDT_PA
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  ValueRank: OneDimension
+  ArrayDimensions: [27]
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level23
+    DataType: ScrewToScreen_Expected_TypeUDT_Level23
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level43
+        DataType: ScrewToScreen_Expected_TypeUDT_Level43
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "L5"
+  - Name: 0
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[0].L1.L2.L3.L4.L5"
+  - Name: 1
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[1].L1.L2.L3.L4.L5"
+  - Name: 2
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[2].L1.L2.L3.L4.L5"
+  - Name: 3
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[3].L1.L2.L3.L4.L5"
+  - Name: 4
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[4].L1.L2.L3.L4.L5"
+  - Name: 5
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[5].L1.L2.L3.L4.L5"
+  - Name: 6
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[6].L1.L2.L3.L4.L5"
+  - Name: 7
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[7].L1.L2.L3.L4.L5"
+  - Name: 8
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[8].L1.L2.L3.L4.L5"
+  - Name: 9
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[9].L1.L2.L3.L4.L5"
+  - Name: 10
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[10].L1.L2.L3.L4.L5"
+  - Name: 11
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[11].L1.L2.L3.L4.L5"
+  - Name: 12
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[12].L1.L2.L3.L4.L5"
+  - Name: 13
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[13].L1.L2.L3.L4.L5"
+  - Name: 14
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[14].L1.L2.L3.L4.L5"
+  - Name: 15
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[15].L1.L2.L3.L4.L5"
+  - Name: 16
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[16].L1.L2.L3.L4.L5"
+  - Name: 17
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[17].L1.L2.L3.L4.L5"
+  - Name: 18
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[18].L1.L2.L3.L4.L5"
+  - Name: 19
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[19].L1.L2.L3.L4.L5"
+  - Name: 20
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[20].L1.L2.L3.L4.L5"
+  - Name: 21
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[21].L1.L2.L3.L4.L5"
+  - Name: 22
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[22].L1.L2.L3.L4.L5"
+  - Name: 23
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[23].L1.L2.L3.L4.L5"
+  - Name: 24
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[24].L1.L2.L3.L4.L5"
+  - Name: 25
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[25].L1.L2.L3.L4.L5"
+  - Name: 26
+    Type: ScrewToScreen_Expected_TypeUDT3
+    DataType: ScrewToScreen_Expected_TypeUDT3
+    Children:
+    - Name: L1
+      Type: ScrewToScreen_Expected_TypeUDT_Level2
+      DataType: ScrewToScreen_Expected_TypeUDT_Level2
+      Children:
+      - Name: L2
+        Type: ScrewToScreen_Expected_TypeUDT_Level33
+        DataType: ScrewToScreen_Expected_TypeUDT_Level33
+        Children:
+        - Name: L3
+          Type: ScrewToScreen_Expected_TypeUDT_Level4
+          DataType: ScrewToScreen_Expected_TypeUDT_Level4
+          Children:
+          - Name: L4
+            Type: ScrewToScreen_Expected_TypeUDT_Level53
+            DataType: ScrewToScreen_Expected_TypeUDT_Level53
+            Children:
+            - Name: L5
+              Type: RAEtherNetIPTag
+              DataType: Int32
+              Children:
+              - Name: SymbolName
+                Type: BaseDataVariableType
+                DataType: String
+                Value: "Program:Photoeye.ScatteredUDT_PA[26].L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT00
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT00.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT01
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT01.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT02
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT02.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT03
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT03.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT04
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT04.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT05
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT05.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT06
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT06.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT07
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT07.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT08
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT08.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT09
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT09.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT10
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT10.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT11
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT11.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT12
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT12.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT13
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT13.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT14
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT14.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT15
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT15.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT16
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT16.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT17
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT17.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT18
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT18.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT19
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT19.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT20
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT20.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT21
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT21.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT22
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT22.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT23
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT23.L1.L2.L3.L4.L5"
+- Name: ScatteredUDT_PT24
+  Type: ScrewToScreen_Expected_TypeUDT3
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "Program:Photoeye.ScatteredUDT_PT24.L1.L2.L3.L4.L5"

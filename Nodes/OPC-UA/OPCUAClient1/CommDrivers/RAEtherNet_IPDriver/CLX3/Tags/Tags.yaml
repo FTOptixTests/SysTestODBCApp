@@ -1,0 +1,6 @@
+Name: Tags
+Id: ns=8;g=a36314087402cc797e5ea5065886489d
+Type: FolderType
+DisplayName: {"LocaleId":"","Text":"Tags"}
+Children:
+- File: Controller_Tags/Controller_Tags.yaml

@@ -1,0 +1,1413 @@
+Name: Screen Types
+Type: ScreensCategoryFolder
+Children:
+- Name: BaseScreenType
+  Id: g=08d6d8d13468eae7a65a0bf30e8f81a0
+  Supertype: Screen
+  ReferenceType: HasComponent
+  Children:
+  - Name: BackgroundColor
+    Type: BaseDataVariableType
+    DataType: Color
+    ModellingRule: Optional
+    Value: "#f0f0f0"
+  - Name: Width
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 1260.0
+  - Name: Height
+    Type: BaseVariableType
+    DataType: Size
+    ModellingRule: Optional
+    Value: 580.0
+  - Name: Layout
+    Type: RowLayout
+    Children:
+    - Name: Width
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: Height
+      Type: BaseVariableType
+      DataType: Size
+      ModellingRule: Optional
+      Value: 50.0
+    - Name: HorizontalAlignment
+      Type: BaseVariableType
+      DataType: HorizontalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: VerticalAlignment
+      Type: BaseVariableType
+      DataType: VerticalAlignment
+      ModellingRule: Optional
+      Value: 3
+    - Name: ScreenContent
+      Type: Panel
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 300.0
+      - Name: CommonScreenContent
+        Type: Panel
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: NavigateBack
+          Type: Button
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"PreviousScreen"}
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ns=10;ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{PanelLoader1}@NodeId"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
+                - Name: ns=10;Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "ChangePanel"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: NewPanel
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Description: {"NamespaceIndex":12,"TextId":"ChangePanelNewPanelDescription"}
+                    Value: "/Objects/SysTestODBCApp/UI/Screens/Screen001_ODBC"
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Description: {"NamespaceIndex":12,"TextId":"ChangePanelAliasNodeDescription"}
+                    ValueRank: ScalarOrOneDimension
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+        - Name: NavigateForward
+          Type: Button
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            ModellingRule: Optional
+            Value: {"LocaleId":"en-US","Text":"NextScreen"}
+          - Name: MouseClickEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseClickEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ns=10;ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{PanelLoader1}@NodeId"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
+                - Name: ns=10;Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "ChangePanel"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: NewPanel
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Description: {"NamespaceIndex":12,"TextId":"ChangePanelNewPanelDescription"}
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Description: {"NamespaceIndex":12,"TextId":"ChangePanelAliasNodeDescription"}
+                    ValueRank: ScalarOrOneDimension
+            - Name: EventArguments
+              Type: MouseClickEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 10.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            Children:
+            - Name: ExpressionEvaluator1
+              Type: ExpressionEvaluator
+              Children:
+              - Name: Expression
+                Type: BaseDataVariableType
+                DataType: String
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: "{0}+40"
+              - Name: ns=10;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/SysTestODBCApp/Model/Variables/Config/PE_Bar/BarWidth"
+        - Name: NextScreen
+          Type: Button
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Children:
+            - Name: StringFormatter1
+              Type: StringFormatter
+              Children:
+              - Name: Format
+                Type: BaseDataVariableType
+                DataType: LocalizedText
+                ReferenceType: HasParameter
+                ModellingRule: Optional
+                Value: {"LocaleId":"en-US","Text":"Screen{0}"}
+              - Name: ns=10;Source0
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/NextScreenNumber"
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 130.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 130.0
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: RightMargin
+            Type: BaseVariableType
+            DataType: Size
+            Value: -10.0
+          - Name: VerticalAlignment
+            Type: BaseVariableType
+            DataType: VerticalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: Width
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 100.0
+          - Name: Height
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 70.0
+          - Name: MouseDownEventHandler1
+            Type: EventHandler
+            Children:
+            - Name: ListenEventType
+              Type: PropertyType
+              DataType: NodeId
+              Value: "/Types/EventTypes/BaseEventType/MouseEvent/MouseDownEvent"
+            - Name: MethodsToCall
+              Type: BaseObjectType
+              Children:
+              - Name: MethodContainer1
+                Type: BaseObjectType
+                Children:
+                - Name: ns=10;ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                  - Name: DynamicLink
+                    Type: DynamicLink
+                    DataType: NodePath
+                    Value: "{PanelLoader1}@NodeId"
+                    Children:
+                    - Name: Mode
+                      Type: BaseVariableType
+                      DataType: DynamicLinkMode
+                      ModellingRule: Optional
+                      Value: 2
+                - Name: ns=10;Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "ChangePanel"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: NewPanel
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Description: {"NamespaceIndex":12,"TextId":"ChangePanelNewPanelDescription"}
+                    Children:
+                    - Name: NextScreen2
+                      Type: NextScreen
+                      Children:
+                      - Name: Pairs
+                        Type: BaseObjectType
+                        Children:
+                        - Name: Pair
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/HomeScreen"
+                        - Name: Pair1
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 1
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen001_ODBC"
+                        - Name: Pair2
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 2
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen002"
+                        - Name: Pair3
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 3
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen003_ODBC"
+                        - Name: Pair4
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 4
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen004_ODBC"
+                        - Name: Pair5
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 5
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen005_ODBC"
+                        - Name: Pair6
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 6
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen006_ODBC"
+                        - Name: Pair7
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 7
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen007"
+                        - Name: Pair8
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 8
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen008_ODBC"
+                        - Name: Pair9
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 9
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen009_ODBC"
+                        - Name: Pair10
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 10
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen010_ODBC"
+                        - Name: Pair11
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 11
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen011_image"
+                        - Name: Pair12
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 12
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen012_ODBC"
+                        - Name: Pair13
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 13
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen013_Image"
+                        - Name: Pair14
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 14
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen014_ODBC"
+                        - Name: Pair15
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 15
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen015_Image"
+                        - Name: Pair16
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 16
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen016_SVG"
+                        - Name: Pair17
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 17
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen017_Trend_Oscillator"
+                        - Name: Pair18
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 18
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen018_DataControlsLists"
+                        - Name: Pair19
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 19
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen019_Charts"
+                        - Name: Pair20
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 20
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen020_Safety"
+                            Children:
+                            - Name: ConditionalConverter1
+                              Type: ConditionalConverter
+                              Children:
+                              - Name: Condition
+                                Type: BaseDataVariableType
+                                DataType: Boolean
+                                ReferenceType: HasSource
+                                Children:
+                                - Name: DynamicLink
+                                  Type: DynamicLink
+                                  DataType: NodePath
+                                  Value: "/Objects/SysTestODBCApp/Model/Variables/Config/SafetyCLX"
+                        - Name: Pair21
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 21
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen021_PDF"
+                        - Name: Pair22
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 22
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen022_Video"
+                        - Name: Pair23
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 23
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen023"
+                        - Name: Pair24
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 24
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen024"
+                        - Name: Pair25
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 25
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen025_datalogger"
+                        - Name: Pair26
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 26
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen026"
+                        - Name: Pair27
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 27
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen027"
+                        - Name: Pair28
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 28
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen028_read_STRING"
+                        - Name: Pair29
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 29
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen029_read_REAL"
+                        - Name: Pair30
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 30
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen030_read_BOOL"
+                        - Name: Pair31
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 31
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen031_read_INT"
+                        - Name: Pair32
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 32
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen032_read_SINT"
+                        - Name: Pair33
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 33
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen033_read_LINT"
+                        - Name: Pair34
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 34
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen034"
+                        - Name: Pair35
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 35
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen035"
+                        - Name: Pair36
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 36
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen036_ODBC_heavy"
+                        - Name: Pair37
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 37
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen037_read_UDT"
+                        - Name: Pair38
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 38
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen038_read_ARRAY"
+                        - Name: Pair39
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 39
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen039_Alarms"
+                        - Name: Pair40
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 40
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen040"
+                        - Name: Pair41
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 41
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen041"
+                        - Name: Pair42
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 42
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen042"
+                        - Name: Pair43
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 43
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen043_Recipe"
+                        - Name: Pair44
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 44
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen044_sv"
+                        - Name: Pair45
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 45
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen045_SV_Widgets"
+                        - Name: Pair46
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 46
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen046"
+                        - Name: Pair47
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 47
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen047"
+                        - Name: Pair48
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 48
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen048"
+                        - Name: Pair49
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 49
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen049"
+                        - Name: Pair50
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 50
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen050_WebBrowser"
+                        - Name: Pair51
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 51
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen051"
+                        - Name: Pair52
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 52
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen052"
+                        - Name: Pair53
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 53
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen053"
+                        - Name: Pair54
+                          Type: ValueMapPair
+                          Children:
+                          - Name: Key
+                            Type: BaseDataVariableType
+                            DataType: UInt32
+                            Value: 54
+                          - Name: Value
+                            Type: BaseDataVariableType
+                            DataType: NodeId
+                            Value: "/Objects/SysTestODBCApp/UI/Screens/Screen054_Write_ICE2"
+                      - Name: Source
+                        Type: BaseDataVariableType
+                        DataType: BaseDataType
+                        ReferenceType: HasSource
+                        Children:
+                        - Name: DynamicLink
+                          Type: DynamicLink
+                          DataType: NodePath
+                          Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:Photoeye/NextScreenNumber"
+                  - Name: AliasNode
+                    Type: BaseDataVariableType
+                    DataType: NodeId
+                    Description: {"NamespaceIndex":12,"TextId":"ChangePanelAliasNodeDescription"}
+                    ValueRank: ScalarOrOneDimension
+              - Name: MethodContainer2
+                Type: BaseObjectType
+                Children:
+                - Name: ns=10;ObjectPointer
+                  Type: NodePointer
+                  DataType: NodeId
+                  Value: "/Objects/SysTestODBCApp/NetLogic/Run-time scripts/CustomEventLogger/LogButtonClick"
+                  Children:
+                  - Name: Kind
+                    Type: PropertyType
+                    DataType: NodeId
+                    Value: "/Types/ObjectTypes/BaseObjectType"
+                - Name: ns=10;Method
+                  Type: BaseDataVariableType
+                  DataType: String
+                  Value: "LogMessageButtonNextScreen"
+                - Name: InputArguments
+                  Type: BaseObjectType
+                  Children:
+                  - Name: buttonPath
+                    Type: BaseDataVariableType
+                    DataType: String
+                    Children:
+                    - Name: DynamicLink
+                      Type: DynamicLink
+                      DataType: NodePath
+                      Value: "../../../../..@BrowsePath"
+            - Name: EventArguments
+              Type: MouseDownEvent
+              Children:
+              - Name: EventId
+                Type: PropertyType
+                DataType: ByteString
+              - Name: EventType
+                Type: PropertyType
+                DataType: NodeId
+              - Name: SourceNode
+                Type: PropertyType
+                DataType: NodeId
+              - Name: SourceName
+                Type: PropertyType
+                DataType: String
+              - Name: Time
+                Type: PropertyType
+                DataType: UtcTime
+              - Name: ReceiveTime
+                Type: PropertyType
+                DataType: UtcTime
+              - Name: Message
+                Type: PropertyType
+                DataType: LocalizedText
+              - Name: Severity
+                Type: PropertyType
+                DataType: UInt16
+        - Name: ScreenName
+          Type: Label
+          Children:
+          - Name: Text
+            Type: BaseDataVariableType
+            DataType: LocalizedText
+            Children:
+            - Name: DynamicLink
+              Type: DynamicLink
+              DataType: NodePath
+              Value: "../../../../..@BrowseName"
+          - Name: HorizontalAlignment
+            Type: BaseVariableType
+            DataType: HorizontalAlignment
+            ModellingRule: Optional
+            Value: 2
+          - Name: LeftMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: -1.0
+          - Name: TopMargin
+            Type: BaseVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 20.0
+          - Name: TextHorizontalAlignment
+            Type: BaseVariableType
+            DataType: TextHorizontalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: TextVerticalAlignment
+            Type: BaseVariableType
+            DataType: TextVerticalAlignment
+            ModellingRule: Optional
+            Value: 1
+          - Name: FontSize
+            Type: BaseDataVariableType
+            DataType: Size
+            ModellingRule: Optional
+            Value: 30.0
+          - Name: FontWeight
+            Type: BaseDataVariableType
+            DataType: FontWeightEnum
+            ModellingRule: Optional
+            Value: 700
+      - Name: UniqueScreenContent
+        Type: Panel
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 300.0
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 3
+      - Name: VerticalAlignment
+        Type: BaseVariableType
+        DataType: VerticalAlignment
+        ModellingRule: Optional
+        Value: 3
+    - Name: Photoeyes
+      Type: Panel
+      Children:
+      - Name: Width
+        Type: BaseVariableType
+        DataType: Size
+        Value: 300.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/SysTestODBCApp/Model/Variables/Config/PE_Bar/BarWidth"
+      - Name: Height
+        Type: BaseVariableType
+        DataType: Size
+        Value: 300.0
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/SysTestODBCApp/Model/Variables/Config/PE_Bar/BarHeight"
+      - Name: HorizontalAlignment
+        Type: BaseVariableType
+        DataType: HorizontalAlignment
+        ModellingRule: Optional
+        Value: 1
+      - Name: TopMargin
+        Type: BaseVariableType
+        DataType: Size
+        Children:
+        - Name: DynamicLink
+          Type: DynamicLink
+          DataType: NodePath
+          Value: "/Objects/SysTestODBCApp/Model/Variables/Config/PE_Bar/BarTopMarginOffset"
+      - Name: RightMargin
+        Type: BaseVariableType
+        DataType: Size
+        ModellingRule: Optional
+        Value: 10.0
+      - Name: BlankPE
+        Type: Rectangle
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 50.0
+        - Name: BorderThickness
+          Type: BaseDataVariableType
+          DataType: Size
+          ModellingRule: Optional
+          Value: 1.0
+        - Name: FillColor
+          Type: BaseDataVariableType
+          DataType: Color
+          ModellingRule: Optional
+          Value: "#000000"
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 3
+        - Name: VerticalAlignment
+          Type: BaseVariableType
+          DataType: VerticalAlignment
+          ModellingRule: Optional
+          Value: 3
+      - Name: ScreenChangeBar
+        Type: ColumnLayout
+        Children:
+        - Name: Width
+          Type: BaseVariableType
+          DataType: Size
+          Value: 50.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/SysTestODBCApp/Model/Variables/Config/PE_Bar/BarWidth"
+        - Name: Height
+          Type: BaseVariableType
+          DataType: Size
+          Value: 50.0
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "/Objects/SysTestODBCApp/Model/Variables/Config/PE_Bar/BarHeight"
+        - Name: HorizontalAlignment
+          Type: BaseVariableType
+          DataType: HorizontalAlignment
+          ModellingRule: Optional
+          Value: 1
+        - Name: PE1
+          Type: ScreenchangePE
+          Children:
+          - Name: PE
+            Type: BaseDataVariableType
+            DataType: Boolean
+          - Name: BorderColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#000000"
+            Children:
+            - Name: BorderPE1
+              Type: BorderPE
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../PE"
+          - Name: FillColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffffff"
+            Children:
+            - Name: ColorPE1
+              Type: ColorPE
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../PE"
+        - Name: PE2
+          Type: ScreenchangePE
+          Children:
+          - Name: PE
+            Type: BaseDataVariableType
+            DataType: Boolean
+          - Name: BorderColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#000000"
+            Children:
+            - Name: BorderPE1
+              Type: BorderPE
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../PE"
+          - Name: FillColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffffff"
+            Children:
+            - Name: ColorPE1
+              Type: ColorPE
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../PE"
+        - Name: PE3
+          Type: ScreenchangePE
+          Children:
+          - Name: PE
+            Type: BaseDataVariableType
+            DataType: Boolean
+          - Name: BorderColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#000000"
+            Children:
+            - Name: BorderPE1
+              Type: BorderPE
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../PE"
+          - Name: FillColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffffff"
+            Children:
+            - Name: ColorPE1
+              Type: ColorPE
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../PE"
+        - Name: PE4
+          Type: ScreenchangePE
+          Children:
+          - Name: PE
+            Type: BaseDataVariableType
+            DataType: Boolean
+          - Name: BorderColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#000000"
+            Children:
+            - Name: BorderPE1
+              Type: BorderPE
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../PE"
+          - Name: FillColor
+            Type: BaseDataVariableType
+            DataType: Color
+            Value: "#ffffff"
+            Children:
+            - Name: ColorPE1
+              Type: ColorPE
+              Children:
+              - Name: Source
+                Type: BaseDataVariableType
+                DataType: BaseDataType
+                ReferenceType: HasSource
+                Children:
+                - Name: DynamicLink
+                  Type: DynamicLink
+                  DataType: NodePath
+                  Value: "../../../PE"

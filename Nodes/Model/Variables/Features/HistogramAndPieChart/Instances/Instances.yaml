@@ -1,0 +1,48 @@
+Name: Instances
+Id: g=06e7e9da6dddfe5cb289924a7f6c7888
+Type: FolderType
+Children:
+- Name: Renewable energy
+  Type: HistogramDataTemplate
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 20.0
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Green energy"
+- Name: Coal
+  Type: HistogramDataTemplate
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 10.0
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Coal"
+- Name: NuclearPower
+  Type: HistogramDataTemplate
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 65.0
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Nuclear Power"
+- Name: Others
+  Type: HistogramDataTemplate
+  Children:
+  - Name: Value
+    Type: BaseDataVariableType
+    DataType: Float
+    Value: 5.0
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "Others"

@@ -1,0 +1,912 @@
+Name: DataStores
+Type: DataStoresCategoryFolder
+Children:
+- Name: ColorPE
+  Id: g=0d1ea2d1325c672037ebd93e4c9c5c71
+  Supertype: ValueMapConverter
+  ReferenceType: HasComponent
+  Children:
+  - Name: Pairs
+    Type: BaseObjectType
+    ModellingRule: None
+    Children:
+    - Name: Pair
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#000000"
+    - Name: Pair1
+      Type: ValueMapPair
+      ModellingRule: None
+      Children:
+      - Name: Key
+        Type: BaseDataVariableType
+        DataType: Boolean
+        ModellingRule: None
+        Value: true
+      - Name: Value
+        Type: BaseDataVariableType
+        DataType: Color
+        ModellingRule: None
+        Value: "#ffffff"
+- Name: DBRecipeCLX1
+  Id: g=df0e8fb0134697a2766195133e71cdcb
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeCLX1
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=18;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+        - Name: /Rec_BOOL
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /Rec_DINT
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Rec_INT
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Rec_LINT
+          Type: StoreColumn
+          DataType: Int64
+        - Name: /Rec_REAL
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Rec_SINT
+          Type: StoreColumn
+          DataType: SByte
+        - Name: /Rec_STRING
+          Type: StoreColumn
+          DataType: String
+  - Class: Reference
+    Target: ns=40;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=40;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=18;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=59
+    Direction: Forward
+- Name: DBRecipeCLX2
+  Id: g=0ee2f1199ad4ba2c78aed86a4963b7c6
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeCLX2
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=18;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+        - Name: /Rec_BOOL
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /Rec_DINT
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Rec_INT
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Rec_LINT
+          Type: StoreColumn
+          DataType: Int64
+        - Name: /Rec_REAL
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Rec_SINT
+          Type: StoreColumn
+          DataType: SByte
+        - Name: /Rec_STRING
+          Type: StoreColumn
+          DataType: String
+  - Class: Reference
+    Target: ns=40;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=40;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=18;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=59
+    Direction: Forward
+- Name: DBRecipeCLX3
+  Id: g=e7c80d560fd31cf05b34c6357e904d11
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeCLX3
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=18;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+        - Name: /Rec_BOOL
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /Rec_DINT
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Rec_INT
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Rec_LINT
+          Type: StoreColumn
+          DataType: Int64
+        - Name: /Rec_REAL
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Rec_SINT
+          Type: StoreColumn
+          DataType: SByte
+        - Name: /Rec_STRING
+          Type: StoreColumn
+          DataType: String
+  - Class: Reference
+    Target: ns=40;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=40;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=18;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=59
+    Direction: Forward
+- Name: DBRecipeCLX4
+  Id: g=147c578825862933277a3200f2f5ac37
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeCLX4
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=18;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Name
+          Type: StoreColumn
+          DataType: String
+        - Name: /Rec_BOOL
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: /Rec_DINT
+          Type: StoreColumn
+          DataType: Int32
+        - Name: /Rec_INT
+          Type: StoreColumn
+          DataType: Int16
+        - Name: /Rec_LINT
+          Type: StoreColumn
+          DataType: Int64
+        - Name: /Rec_REAL
+          Type: StoreColumn
+          DataType: Float
+        - Name: /Rec_SINT
+          Type: StoreColumn
+          DataType: SByte
+        - Name: /Rec_STRING
+          Type: StoreColumn
+          DataType: String
+  - Class: Reference
+    Target: ns=40;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=40;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=18;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=59
+    Direction: Forward
+- Name: EmbeddedDatabase_AHV
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+  - Class: Reference
+    Target: ns=40;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=40;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=18;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=59
+    Direction: Forward
+- Name: EmbeddedDatabase1
+  Id: g=5ed7d73f011ab8721d04d32f16bfe270
+  Type: SQLiteStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: Slow
+      Type: SQLiteStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=18;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: CV
+          Type: StoreColumn
+          DataType: Float
+        - Name: ScatteredBOOL_CS.B01
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: ScatteredDINT_CS.D02
+          Type: StoreColumn
+          DataType: Int32
+        - Name: ScatteredINT_CS.I03.3
+          Type: StoreColumn
+          DataType: Int16
+        - Name: ScatteredLINT_CS.L05
+          Type: StoreColumn
+          DataType: Int64
+        - Name: ScatteredREAL_CS.R06
+          Type: StoreColumn
+          DataType: Float
+        - Name: ScatteredSINT_CS.S09
+          Type: StoreColumn
+          DataType: SByte
+        - Name: ScatteredSINT_CS.S09.4
+          Type: StoreColumn
+          DataType: SByte
+        - Name: 'ScatteredARRAY_CT[0,0,7]'
+          Type: StoreColumn
+          DataType: Int32
+        - Name: CatalogNumber
+          Type: StoreColumn
+          DataType: String
+        - Name: Brightness
+          Type: StoreColumn
+          DataType: UInt32
+        - Name: OSVersion
+          Type: StoreColumn
+          DataType: String
+        - Name: CPUTemperature
+          Type: StoreColumn
+          DataType: Int32
+      - Name: RecordLimit
+        Type: BaseDataVariableType
+        DataType: UInt32
+        Value: 1000
+  - Class: Reference
+    Target: ns=40;i=30
+    Direction: Forward
+  - Class: Reference
+    Target: ns=40;i=33
+    Direction: Forward
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=18;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=59
+    Direction: Forward
+  - Name: Filename
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "EOI_DataLog"
+- Name: ODBCDatabase1
+  Id: g=30a28720e9bff82db7df0539ed6205f5
+  Type: ODBCStore
+  Children:
+  - Name: Tables
+    Type: BaseObjectType
+    Children:
+    - Name: ODBCLogger
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=18;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: LocalTimestamp
+          Type: StoreColumn
+          DataType: DateTime
+        - Name: LoggerTriggersCount
+          Type: StoreColumn
+          DataType: Int32
+        - Name: STRING_Var1
+          Type: StoreColumn
+          DataType: String
+        - Name: STRING_Var2
+          Type: StoreColumn
+          DataType: String
+        - Name: STRING_Var3
+          Type: StoreColumn
+          DataType: String
+        - Name: STRING_Var4
+          Type: StoreColumn
+          DataType: String
+        - Name: STRING_Var5
+          Type: StoreColumn
+          DataType: String
+        - Name: BOOL_Var1
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: BOOL_Var2
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: BOOL_Var3
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: BOOL_Var4
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: BOOL_Var5
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: FLOAT_Var1
+          Type: StoreColumn
+          DataType: Float
+        - Name: FLOAT_Var2
+          Type: StoreColumn
+          DataType: Float
+        - Name: FLOAT_Var3
+          Type: StoreColumn
+          DataType: Float
+        - Name: FLOAT_Var4
+          Type: StoreColumn
+          DataType: Float
+        - Name: FLOAT_Var5
+          Type: StoreColumn
+          DataType: Float
+        - Name: INT_Var1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: INT_Var2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: INT_Var3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: INT_Var4
+          Type: StoreColumn
+          DataType: Int32
+        - Name: INT_Var5
+          Type: StoreColumn
+          DataType: Int32
+        - Name: UINT_Var1
+          Type: StoreColumn
+          DataType: UInt32
+        - Name: UINT_Var2
+          Type: StoreColumn
+          DataType: UInt32
+        - Name: UINT_Var3
+          Type: StoreColumn
+          DataType: UInt32
+        - Name: UINT_Var4
+          Type: StoreColumn
+          DataType: UInt32
+        - Name: UINT_Var5
+          Type: StoreColumn
+          DataType: UInt32
+        - Name: BYTE_Var1
+          Type: StoreColumn
+          DataType: Byte
+        - Name: BYTE_Var2
+          Type: StoreColumn
+          DataType: Byte
+        - Name: BYTE_Var3
+          Type: StoreColumn
+          DataType: Byte
+        - Name: BYTE_Var4
+          Type: StoreColumn
+          DataType: Byte
+        - Name: BYTE_Var5
+          Type: StoreColumn
+          DataType: Byte
+    - Name: Table1
+      Id: g=89e456ea71747d38086ebc56e04dcaaf
+      Type: ODBCStoreTable
+      Children:
+      - Class: Reference
+        Target: ns=18;i=12
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=15
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=21
+        Direction: Forward
+      - Class: Reference
+        Target: ns=18;i=20
+        Direction: Forward
+      - Name: Columns
+        Type: BaseObjectType
+        Children:
+        - Name: Timestamp
+          Type: StoreColumn
+          DataType: UtcTime
+        - Name: Variable1
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Variable2
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Variable3
+          Type: StoreColumn
+          DataType: Int32
+        - Name: Variable4
+          Type: StoreColumn
+          DataType: Int32
+        - Name: CLX1_Name
+          Type: StoreColumn
+          DataType: String
+        - Name: CLX2_Name
+          Type: StoreColumn
+          DataType: String
+        - Name: CLX3_Name
+          Type: StoreColumn
+          DataType: String
+        - Name: CLX4_Name
+          Type: StoreColumn
+          DataType: String
+  - Name: Type
+    Type: PropertyType
+    DataType: DBMSType
+    Value: 3
+  - Name: Username
+    Type: PropertyType
+    DataType: String
+    Value: "newuser"
+  - Name: Password
+    Type: PropertyType
+    DataType: Password
+    SecretValue: AXLR4VY9tBpr1TIcAs8/Q/kw1xD3Upf7yacShEn1JB5VpmHF
+  - Name: MaxColumnNameLength
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: MaxColumnCount
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: DataTypeCompatibilityMap
+    Type: BaseDataVariableType
+    DataType: NodeId
+    AccessLevel: Read
+    ValueRank: OneOrMoreDimensions
+    ArrayDimensions: [0,0]
+  - Name: Status
+    Type: PropertyType
+    DataType: StoreStatus
+    AccessLevel: Read
+    Value: 2
+  - Class: Reference
+    Target: ns=18;i=22
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=6
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=8
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=25
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=38
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=41
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=57
+    Direction: Forward
+  - Class: Reference
+    Target: ns=18;i=59
+    Direction: Forward
+  - Name: Server
+    Type: PropertyType
+    DataType: String
+    Value: "192.168.1.215"
+  - Name: Port
+    Type: PropertyType
+    DataType: UInt16
+    Value: 3306
+  - Name: Database
+    Type: PropertyType
+    DataType: String
+    Value: "odbc_vv_db"

@@ -1,0 +1,7 @@
+Name: RAEtherNet_IPDriver
+Type: RAEtherNetIPDriver
+Children:
+- File: CLX1/CLX1.yaml
+- File: CLX2/CLX2.yaml
+- File: CLX3/CLX3.yaml
+- File: CLX4/CLX4.yaml

@@ -1,0 +1,234 @@
+Name: DataControls_Box
+Type: FolderType
+Children:
+- Name: HotelType
+  Id: g=c202eff0f6f927aacd89ff6dab7e692b
+  Supertype: BaseObjectType
+  Children:
+  - Name: Name
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: AmountOfStars
+    Type: BaseDataVariableType
+    DataType: Byte
+  - Name: City
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "0"
+  - Name: isRestaurant
+    Type: BaseDataVariableType
+    DataType: Boolean
+- Name: Hotels
+  Id: g=3adc31f528a3b3247b19a9d00a824775
+  Type: BaseObjectType
+  Children:
+  - Name: HotelType1
+    Type: HotelType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "ZlotyLan"
+    - Name: AmountOfStars
+      Type: BaseDataVariableType
+      DataType: Byte
+      Value: 4
+    - Name: City
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Sopot"
+    - Name: isRestaurant
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+  - Name: HotelType2
+    Type: HotelType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Artics"
+    - Name: AmountOfStars
+      Type: BaseDataVariableType
+      DataType: Byte
+      Value: 4
+    - Name: City
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Ottawa"
+    - Name: isRestaurant
+      Type: BaseDataVariableType
+      DataType: Boolean
+  - Name: HotelType3
+    Type: HotelType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "GoldenCastle"
+    - Name: AmountOfStars
+      Type: BaseDataVariableType
+      DataType: Byte
+      Value: 2
+    - Name: City
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Antalya"
+    - Name: isRestaurant
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+  - Name: HotelType4
+    Type: HotelType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "WitchHouse"
+    - Name: AmountOfStars
+      Type: BaseDataVariableType
+      DataType: Byte
+      Value: 5
+    - Name: City
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Salem"
+    - Name: isRestaurant
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+  - Name: HotelType5
+    Type: HotelType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Democracy"
+    - Name: AmountOfStars
+      Type: BaseDataVariableType
+      DataType: Byte
+      Value: 3
+    - Name: City
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Washington"
+    - Name: isRestaurant
+      Type: BaseDataVariableType
+      DataType: Boolean
+  - Name: HotelType6
+    Type: HotelType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Casino Royal"
+    - Name: AmountOfStars
+      Type: BaseDataVariableType
+      DataType: Byte
+      Value: 4
+    - Name: City
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Las Vegas"
+    - Name: isRestaurant
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+  - Name: HotelType7
+    Type: HotelType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "RockwellHotel"
+    - Name: AmountOfStars
+      Type: BaseDataVariableType
+      DataType: Byte
+      Value: 5
+    - Name: City
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Katowice"
+    - Name: isRestaurant
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+  - Name: HotelType8
+    Type: HotelType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Pensjonat U Mieszka"
+    - Name: AmountOfStars
+      Type: BaseDataVariableType
+      DataType: Byte
+      Value: 5
+    - Name: City
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Gniezno"
+    - Name: isRestaurant
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+  - Name: HotelType9
+    Type: HotelType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Teuton"
+    - Name: AmountOfStars
+      Type: BaseDataVariableType
+      DataType: Byte
+      Value: 1
+    - Name: City
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Berlin"
+    - Name: isRestaurant
+      Type: BaseDataVariableType
+      DataType: Boolean
+  - Name: HotelType10
+    Type: HotelType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "DontSleepHere"
+    - Name: AmountOfStars
+      Type: BaseDataVariableType
+      DataType: Byte
+      Value: 1
+    - Name: City
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Munchen"
+    - Name: isRestaurant
+      Type: BaseDataVariableType
+      DataType: Boolean
+      Value: true
+  - Name: HotelType11
+    Type: HotelType
+    Children:
+    - Name: Name
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Hopsasa"
+    - Name: AmountOfStars
+      Type: BaseDataVariableType
+      DataType: Byte
+      Value: 4
+    - Name: City
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Paris"
+    - Name: isRestaurant
+      Type: BaseDataVariableType
+      DataType: Boolean
+- Name: ExpandList
+  Id: g=acebb0a4613c9617932e133ee5d9539e
+  Type: BaseDataVariableType
+  DataType: Boolean

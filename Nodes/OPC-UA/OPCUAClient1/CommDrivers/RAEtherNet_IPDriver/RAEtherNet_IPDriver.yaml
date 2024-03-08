@@ -1,0 +1,9 @@
+Name: ns=8;RAEtherNet_IPDriver
+Id: ns=8;g=1a42247194914c1dd27cbb89d147e1dd
+Type: RAEtherNetIPDriver
+DisplayName: {"LocaleId":"","Text":"RAEtherNet_IPDriver"}
+Children:
+- File: CLX1/CLX1.yaml
+- File: CLX2/CLX2.yaml
+- File: CLX3/CLX3.yaml
+- File: CLX4/CLX4.yaml
