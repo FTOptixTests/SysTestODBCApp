@@ -3092,6 +3092,15 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "Cons_Options"
+- Name: EOI1_CPU_usage
+  Id: g=40027d12a8ffb1ab5d7dbc9ad864557d
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "EOI1_CPU_usage"
 - Name: EOI1_HB
   Type: ns=49;HB_EOI
   DataType: ns=49;HB_EOI
@@ -3173,6 +3182,15 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "EOI1_HB.Timer.TT"
+- Name: EOI1_RAM_Consumption
+  Id: g=87a586f3efea293a86e249130f758d4f
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "EOI1_RAM_Consumption"
 - Name: EOI1_States_Table_25_H
   Type: RAEtherNetIPTag
   DataType: Int16
@@ -3181,6 +3199,15 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "EOI1_States_Table_25_H"
+- Name: EOI2_CPU_usage
+  Id: g=6c2915db5ecb39dbe463f223b7c46edc
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "EOI2_CPU_usage"
 - Name: EOI2_HB
   Type: ns=49;HB_EOI
   DataType: ns=49;HB_EOI
@@ -3262,6 +3289,24 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "EOI2_HB.Timer.TT"
+- Name: EOI2_RAM_Consumption
+  Id: g=f7641af70f16a1f15e4b76e4054ceddc
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "EOI2_RAM_Consumption"
+- Name: EOI3_CPU_usage
+  Id: g=8196f51451e141ade33eac5333b70ce9
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "EOI3_CPU_usage"
 - Name: EOI3_HB
   Type: ns=49;HB_EOI
   DataType: ns=49;HB_EOI
@@ -3343,6 +3388,24 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "EOI3_HB.Timer.TT"
+- Name: EOI3_RAM_Consumption
+  Id: g=9e2f0b907300f8e9bc77baa674d2fb85
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "EOI3_RAM_Consumption"
+- Name: EOI4_CPU_usage
+  Id: g=02e064d39d9f64d84cba6194588f999f
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "EOI4_CPU_usage"
 - Name: EOI4_HB
   Type: ns=49;HB_EOI
   DataType: ns=49;HB_EOI
@@ -3424,6 +3487,15 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "EOI4_HB.Timer.TT"
+- Name: EOI4_RAM_Consumption
+  Id: g=4dd0e6dcbf3029d6436bf380fef4f00c
+  Type: RAEtherNetIPTag
+  DataType: Int32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "EOI4_RAM_Consumption"
 - Name: Event_Triggers
   Type: RAEtherNetIPTag
   DataType: Int32

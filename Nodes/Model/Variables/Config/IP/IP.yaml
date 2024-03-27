@@ -6,6 +6,7 @@ Children:
   DataType: String
   Value: "0"
 - Name: EOI_Nr
+  Id: g=ce1c5d48520ce2e9087aff91718f077c
   Type: BaseDataVariableType
   DataType: Int32
   Value: 1
