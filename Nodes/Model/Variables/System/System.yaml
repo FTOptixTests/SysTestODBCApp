@@ -235,7 +235,7 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../../../../../Config/IP/EOI_Nr"
-              - Name: Pairs
+              - Name: ns=10;Pairs
                 Type: BaseObjectType
                 Children:
                 - Name: Pair
@@ -407,7 +407,7 @@ Children:
                   Type: DynamicLink
                   DataType: NodePath
                   Value: "../../../../../../../../../Config/IP/EOI_Nr"
-              - Name: Pairs
+              - Name: ns=10;Pairs
                 Type: BaseObjectType
                 Children:
                 - Name: Pair

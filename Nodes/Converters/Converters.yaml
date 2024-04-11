@@ -6,7 +6,7 @@ Children:
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=10;Pairs
     Type: BaseObjectType
     ModellingRule: None
     Children:

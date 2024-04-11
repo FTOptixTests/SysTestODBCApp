@@ -6,7 +6,7 @@ Children:
   Supertype: ValueMapConverter
   ReferenceType: HasComponent
   Children:
-  - Name: Pairs
+  - Name: ns=10;Pairs
     Type: BaseObjectType
     ModellingRule: None
     Children:
@@ -788,6 +788,30 @@ Children:
         - Name: BYTE_Var5
           Type: StoreColumn
           DataType: Byte
+        - Name: CLX1_ScatteredBOOL_CT00
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: CLX1_ScatteredDINT_CT00
+          Type: StoreColumn
+          DataType: Int32
+        - Name: CLX2_ScatteredBOOL_CT00
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: CLX2_ScatteredDINT_CT00
+          Type: StoreColumn
+          DataType: Int32
+        - Name: CLX3_ScatteredBOOL_CT00
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: CLX3_ScatteredDINT_CT00
+          Type: StoreColumn
+          DataType: Int32
+        - Name: CLX4_ScatteredBOOL_CT00
+          Type: StoreColumn
+          DataType: Boolean
+        - Name: CLX4_ScatteredDINT_CT00
+          Type: StoreColumn
+          DataType: Int32
     - Name: Table1
       Id: g=89e456ea71747d38086ebc56e04dcaaf
       Type: ODBCStoreTable

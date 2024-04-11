@@ -97,7 +97,7 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{P_VSD}/Sts_CommandDir"
-        - Name: Pairs
+        - Name: ns=10;Pairs
           Type: BaseObjectType
           Children:
           - Name: Pair
@@ -209,7 +209,7 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{P_VSD}/Sts_ActualDir"
-        - Name: Pairs
+        - Name: ns=10;Pairs
           Type: BaseObjectType
           ModellingRule: None
           Children:
@@ -333,7 +333,7 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{CM_VSD_Val_Notify}"
-        - Name: Pairs
+        - Name: ns=10;Pairs
           Type: BaseObjectType
           Children:
           - Name: Pair
@@ -1377,7 +1377,7 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{CM_VSD_1_Color_Val}"
-        - Name: Pairs
+        - Name: ns=10;Pairs
           Type: BaseObjectType
           ModellingRule: None
           Children:
@@ -1668,7 +1668,7 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{CM_Vlv_Val_Notify}"
-        - Name: Pairs
+        - Name: ns=10;Pairs
           Type: BaseObjectType
           ModellingRule: None
           Children:
@@ -2834,7 +2834,7 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{CM_Vlv_1_Color_Val}"
-        - Name: Pairs
+        - Name: ns=10;Pairs
           Type: BaseObjectType
           ModellingRule: None
           Children:
@@ -3345,7 +3345,7 @@ Children:
             Type: DynamicLink
             DataType: NodePath
             Value: "{CM_AIn_Val_Notify}"
-        - Name: Pairs
+        - Name: ns=10;Pairs
           Type: BaseObjectType
           ModellingRule: None
           Children:

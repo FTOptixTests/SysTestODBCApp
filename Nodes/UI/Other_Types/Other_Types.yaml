@@ -99,7 +99,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-      - Name: Pairs
+      - Name: ns=10;Pairs
         Type: BaseObjectType
         ModellingRule: None
         Children:
@@ -365,7 +365,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-      - Name: Pairs
+      - Name: ns=10;Pairs
         Type: BaseObjectType
         ModellingRule: None
         Children:

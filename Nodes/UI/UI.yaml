@@ -2445,7 +2445,7 @@ Children:
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Program&:S30_DBA/CurrentAlarmTransitionCmp"
-                  - Name: Pairs
+                  - Name: ns=10;Pairs
                     Type: BaseObjectType
                     ModellingRule: None
                     Children:
@@ -2554,7 +2554,7 @@ Children:
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Program&:S30_DBA/CurrentAlarmTransitionCmp"
-                  - Name: Pairs
+                  - Name: ns=10;Pairs
                     Type: BaseObjectType
                     ModellingRule: None
                     Children:
@@ -2668,7 +2668,7 @@ Children:
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Program&:S30_DBA/CurrentAlarmTransitionCmp"
-                  - Name: Pairs
+                  - Name: ns=10;Pairs
                     Type: BaseObjectType
                     ModellingRule: None
                     Children:
@@ -2782,7 +2782,7 @@ Children:
                       Type: DynamicLink
                       DataType: NodePath
                       Value: "/Objects/SysTestODBCApp/CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Program&:S30_DBA/CurrentAlarmTransitionCmp"
-                  - Name: Pairs
+                  - Name: ns=10;Pairs
                     Type: BaseObjectType
                     ModellingRule: None
                     Children:
@@ -2971,7 +2971,7 @@ Children:
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "/Objects/SysTestODBCApp/Model/Variables/Config/IP/EOI_Nr"
-                    - Name: Pairs
+                    - Name: ns=10;Pairs
                       Type: BaseObjectType
                       Children:
                       - Name: Pair
@@ -3098,7 +3098,7 @@ Children:
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "/Objects/SysTestODBCApp/Model/Variables/Config/IP/EOI_Nr"
-                    - Name: Pairs
+                    - Name: ns=10;Pairs
                       Type: BaseObjectType
                       Children:
                       - Name: Pair
@@ -3246,7 +3246,7 @@ Children:
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "/Objects/SysTestODBCApp/Model/Variables/Config/IP/EOI_Nr"
-                    - Name: Pairs
+                    - Name: ns=10;Pairs
                       Type: BaseObjectType
                       Children:
                       - Name: Pair
@@ -3373,7 +3373,7 @@ Children:
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "/Objects/SysTestODBCApp/Model/Variables/Config/IP/EOI_Nr"
-                    - Name: Pairs
+                    - Name: ns=10;Pairs
                       Type: BaseObjectType
                       Children:
                       - Name: Pair
@@ -3525,7 +3525,7 @@ Children:
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "/Objects/SysTestODBCApp/Model/Variables/Config/IP/EOI_Nr"
-                    - Name: Pairs
+                    - Name: ns=10;Pairs
                       Type: BaseObjectType
                       Children:
                       - Name: Pair
@@ -3652,7 +3652,7 @@ Children:
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "/Objects/SysTestODBCApp/Model/Variables/Config/IP/EOI_Nr"
-                    - Name: Pairs
+                    - Name: ns=10;Pairs
                       Type: BaseObjectType
                       Children:
                       - Name: Pair
@@ -3800,7 +3800,7 @@ Children:
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "/Objects/SysTestODBCApp/Model/Variables/Config/IP/EOI_Nr"
-                    - Name: Pairs
+                    - Name: ns=10;Pairs
                       Type: BaseObjectType
                       Children:
                       - Name: Pair
@@ -3927,7 +3927,7 @@ Children:
                         Type: DynamicLink
                         DataType: NodePath
                         Value: "/Objects/SysTestODBCApp/Model/Variables/Config/IP/EOI_Nr"
-                    - Name: Pairs
+                    - Name: ns=10;Pairs
                       Type: BaseObjectType
                       Children:
                       - Name: Pair

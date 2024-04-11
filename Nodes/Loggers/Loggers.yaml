@@ -1154,6 +1154,270 @@ Children:
           Type: BaseVariableType
           DataType: DynamicLinkMode
           Value: 2
+    - Name: CLX1_ScatteredBOOL_CT00
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredBOOL_CT00"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+      - Name: DeadBandMode
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 1
+      - Name: DeadBandValue
+        Type: PropertyType
+        DataType: Double
+        Value: 999999.0
+    - Name: CLX1_ScatteredDINT_CT00
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX1/Tags/Controller Tags/ScatteredDINT_CT00"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+      - Name: DeadBandMode
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 1
+      - Name: DeadBandValue
+        Type: PropertyType
+        DataType: Double
+        Value: 999999.0
+    - Name: CLX2_ScatteredBOOL_CT00
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredBOOL_CT00"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+      - Name: DeadBandMode
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 1
+      - Name: DeadBandValue
+        Type: PropertyType
+        DataType: Double
+        Value: 999999.0
+    - Name: CLX2_ScatteredDINT_CT00
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX2/Tags/Controller Tags/ScatteredDINT_CT00"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+      - Name: DeadBandMode
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 1
+      - Name: DeadBandValue
+        Type: PropertyType
+        DataType: Double
+        Value: 999999.0
+    - Name: CLX3_ScatteredBOOL_CT00
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredBOOL_CT00"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+      - Name: DeadBandMode
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 1
+      - Name: DeadBandValue
+        Type: PropertyType
+        DataType: Double
+        Value: 999999.0
+    - Name: CLX3_ScatteredDINT_CT00
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX3/Tags/Controller Tags/ScatteredDINT_CT00"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+      - Name: DeadBandMode
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 1
+      - Name: DeadBandValue
+        Type: PropertyType
+        DataType: Double
+        Value: 999999.0
+    - Name: CLX4_ScatteredBOOL_CT00
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredBOOL_CT00"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+      - Name: DeadBandMode
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 1
+      - Name: DeadBandValue
+        Type: PropertyType
+        DataType: Double
+        Value: 999999.0
+    - Name: CLX4_ScatteredDINT_CT00
+      Type: VariableToLog
+      DataType: BaseDataType
+      Children:
+      - Name: LastValue
+        Type: PropertyType
+        DataType: BaseDataType
+        AccessLevel: Read
+      - Name: Timestamp
+        Type: PropertyType
+        DataType: UtcTime
+        AccessLevel: Read
+      - Name: LastOperationCode
+        Type: PropertyType
+        DataType: StatusCode
+        AccessLevel: Read
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../../CommDrivers/RAEtherNet_IPDriver/CLX4/Tags/Controller Tags/ScatteredDINT_CT00"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+      - Name: DeadBandMode
+        Type: PropertyType
+        DataType: DeadBandModeEnum
+        Value: 1
+      - Name: DeadBandValue
+        Type: PropertyType
+        DataType: Double
+        Value: 999999.0
   - Class: Reference
     Target: ns=14;i=21
     Direction: Forward
