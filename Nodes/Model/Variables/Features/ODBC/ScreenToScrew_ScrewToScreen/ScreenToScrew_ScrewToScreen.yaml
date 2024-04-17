@@ -1,0 +1,10 @@
+Name: ScreenToScrew_ScrewToScreen
+Type: FolderType
+Children:
+- Name: EnablePeriodicODBCVerification
+  Type: BaseDataVariableType
+  DataType: Boolean
+- Name: ODBCVerifiedOK
+  Type: BaseDataVariableType
+  DataType: Boolean
+  Value: true

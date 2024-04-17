@@ -1,0 +1,68 @@
+Name: ScreenToScrew_ScrewToScreen
+Type: FolderType
+Children:
+- Name: PeriodicODBCQueryEnabler
+  Type: NetLogic
+  Children:
+  - Name: Enabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../Model/Variables/Features/ODBC/ScreenToScrew_ScrewToScreen/EnablePeriodicODBCVerification"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Name: Period
+    Type: BaseDataVariableType
+    DataType: Duration
+    Value: "0:00:00:30.0000000"
+  - Name: Action
+    Type: MethodInvocation
+    Children:
+    - Name: ObjectPointer
+      Type: NodePointer
+      DataType: NodeId
+      Children:
+      - Name: Kind
+        Type: PropertyType
+        DataType: NodeId
+        Value: "/Types/ObjectTypes/BaseObjectType"
+      - Name: DynamicLink
+        Type: DynamicLink
+        DataType: NodePath
+        Value: "../../../VerifyODBC@NodeId"
+        Children:
+        - Name: Mode
+          Type: BaseVariableType
+          DataType: DynamicLinkMode
+          Value: 2
+    - Name: Method
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "VerifyDatabase"
+    - Class: Reference
+      Target: ns=10;i=98
+      Direction: Forward
+- Name: VerifyODBC
+  Type: NetLogic
+  Children:
+  - Name: SelectOKCountOK
+    Type: BaseDataVariableType
+    DataType: Boolean
+    Children:
+    - Name: DynamicLink
+      Type: DynamicLink
+      DataType: NodePath
+      Value: "../../../../../Model/Variables/Features/ODBC/ScreenToScrew_ScrewToScreen/ODBCVerifiedOK"
+      Children:
+      - Name: Mode
+        Type: BaseVariableType
+        DataType: DynamicLinkMode
+        Value: 2
+  - Class: Method
+    Name: VerifyDatabase

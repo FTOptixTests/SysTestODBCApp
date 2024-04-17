@@ -62,7 +62,7 @@ public class BigODBCQueries : BaseNetLogic
         }
         catch (Exception e)
         {
-            Log.Info($"ERROR: {e.Message}");
+            Log.Error($"ERROR: {e.Message}");
             recordsCount = -1;
         }
 
@@ -74,7 +74,7 @@ public class BigODBCQueries : BaseNetLogic
         else
         {
             LogicObject.GetVariable("RecordsCountOK").Value = false;
-            Log.Info($"ERROR! Expected number of records: {expectedRecordsCount}, Actual number of records: {recordsCount}");
+            Log.Error($"ERROR! Expected number of records: {expectedRecordsCount}, Actual number of records: {recordsCount}");
         }
         
         // Get the 1st and the 1000th record from the result set and if that doesn't throw an exception, set the flag to true; if not - set the flag to false
@@ -88,7 +88,7 @@ public class BigODBCQueries : BaseNetLogic
         }
         catch (Exception e)
         {
-            Log.Info($"ERROR: {e.Message}");
+            Log.Error($"ERROR: {e.Message}");
             LogicObject.GetVariable("SelectRecordsOK").Value = false;
         }
 
