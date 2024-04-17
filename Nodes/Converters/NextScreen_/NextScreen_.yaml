@@ -95,7 +95,7 @@ Children:
       - Name: Value
         Type: BaseDataVariableType
         DataType: NodeId
-        Value: "/Objects/SysTestODBCApp/UI/Screens/Screen007"
+        Value: "/Objects/SysTestODBCApp/UI/Screens/Screen007_ODBC"
     - Name: Pair8
       Type: ValueMapPair
       Children:

@@ -19875,7 +19875,7 @@ Children:
         - Name: DynamicLink
           Type: DynamicLink
           DataType: NodePath
-          Value: "/Objects/SysTestODBCApp/UI/Screens/Screen007@BrowseName"
+          Value: "/Objects/SysTestODBCApp/UI/Screens/Screen007_ODBC@BrowseName"
       - Name: LeftMargin
         Type: BaseVariableType
         DataType: Size
@@ -19953,7 +19953,7 @@ Children:
                 Type: BaseDataVariableType
                 DataType: NodeId
                 Description: {"NamespaceIndex":12,"TextId":"ChangePanelNewPanelDescription"}
-                Value: "/Objects/SysTestODBCApp/UI/Screens/Screen007"
+                Value: "/Objects/SysTestODBCApp/UI/Screens/Screen007_ODBC"
               - Name: AliasNode
                 Type: BaseDataVariableType
                 DataType: NodeId
