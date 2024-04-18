@@ -1,10 +1,14 @@
 Name: ScreenToScrew_ScrewToScreen
 Type: FolderType
 Children:
-- Name: EnablePeriodicODBCVerification
+- Name: EnablePeriodicODBCQuery
+  Id: g=96f74b3e7e324bfb16921fe619683bc1
   Type: BaseDataVariableType
   DataType: Boolean
 - Name: ODBCVerifiedOK
   Type: BaseDataVariableType
   DataType: Boolean
   Value: true
+- Name: TogglePeriodicODBCVerification
+  Type: BaseDataVariableType
+  DataType: Boolean

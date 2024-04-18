@@ -11,7 +11,7 @@ Children:
     - Name: DynamicLink
       Type: DynamicLink
       DataType: NodePath
-      Value: "../../../../../Model/Variables/Features/ODBC/ScreenToScrew_ScrewToScreen/EnablePeriodicODBCVerification"
+      Value: "../../../../../Model/Variables/Features/ODBC/ScreenToScrew_ScrewToScreen/EnablePeriodicODBCQuery"
       Children:
       - Name: Mode
         Type: BaseVariableType
