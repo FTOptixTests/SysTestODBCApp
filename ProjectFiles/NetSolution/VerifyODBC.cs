@@ -50,7 +50,7 @@ public class VerifyODBC : BaseNetLogic
 
         // Expected number of records in the table
         int expectedRecordsCount = 1000;
-        int recordsCount;
+        int recordsCount = -1;
 
         // Initialize variables
         bool recordsCountOK = false;
@@ -74,6 +74,7 @@ public class VerifyODBC : BaseNetLogic
         if (recordsCount == expectedRecordsCount)
         {
             recordsCountOK = true;
+            Log.Info("Records count in the ODBC database verified - OK");
         }
         else
         {
@@ -89,6 +90,7 @@ public class VerifyODBC : BaseNetLogic
             Log.Info($"Record {0}: {resultSet[0, 0]}, {resultSet[0, 1]}, {resultSet[0, 2]}...");
             Log.Info($"Record {recordsCount - 1}: {resultSet[recordsCount - 1, 0]}, {resultSet[recordsCount - 1, 1]}, {resultSet[recordsCount - 1, 2]}...");
             recordsSelectOK = true;
+            Log.Info("Select records verified - OK");
         }
         catch (Exception e)
         {
