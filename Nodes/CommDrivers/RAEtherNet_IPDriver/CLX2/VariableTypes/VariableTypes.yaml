@@ -1,6 +1,610 @@
 Name: VariableTypes
 Type: FolderType
 Children:
+- Name: ScreenToScrew_Expected_Type071
+  Id: g=b722c65c5bf00f97472f3e6e1a6d0073
+  Supertype: TagStructure
+  DataType: ScreenToScrew_Expected_Type071
+  ValueRank: Any
+  Children:
+  - Name: Tag00
+    Type: RAEtherNetIPTag
+    DataType: Double
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag00"
+  - Name: Tag01
+    Type: RAEtherNetIPTag
+    DataType: UInt64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag01"
+  - Name: Tag02
+    Type: RAEtherNetIPTag
+    DataType: UInt32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag02"
+  - Name: Tag03
+    Type: RAEtherNetIPTag
+    DataType: UInt16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag03"
+  - Name: Tag04
+    Type: RAEtherNetIPTag
+    DataType: Byte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag04"
+  - Name: Tag05
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag05"
+  - Name: Tag06
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag06"
+- Name: ScatteredDINTs1
+  Id: g=33e31df2150b225a81c1c1e9f1e08641
+  Supertype: TagStructure
+  DataType: ScatteredDINTs1
+  ValueRank: Any
+  Children:
+  - Name: D00
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D00"
+  - Name: D01
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D01"
+  - Name: D02
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D02"
+  - Name: D03
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D03"
+  - Name: D04
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D04"
+  - Name: D05
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D05"
+  - Name: D06
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D06"
+  - Name: D07
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D07"
+  - Name: D08
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D08"
+  - Name: D09
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D09"
+  - Name: D10
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D10"
+  - Name: D11
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D11"
+  - Name: D12
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D12"
+  - Name: D13
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D13"
+  - Name: D14
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D14"
+  - Name: D15
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D15"
+  - Name: D16
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D16"
+  - Name: D17
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D17"
+  - Name: D18
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D18"
+  - Name: D19
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D19"
+  - Name: D20
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D20"
+  - Name: D21
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D21"
+  - Name: D22
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D22"
+  - Name: D23
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D23"
+  - Name: D24
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D24"
+  - Name: D25
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D25"
+  - Name: D26
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "D26"
+- Name: ScrewToScreen_Expected_TypeUDT_Level53
+  Id: g=415b5823a9945a093681463690ac2d6c
+  Supertype: TagStructure
+  DataType: ScrewToScreen_Expected_TypeUDT_Level53
+  ValueRank: Any
+  Children:
+  - Name: L5
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L5"
+- Name: ScrewToScreen_Expected_TypeUDT_Level4
+  Id: g=2dc01924e7ebe67177e05abfa6ad471b
+  Supertype: TagStructure
+  DataType: ScrewToScreen_Expected_TypeUDT_Level4
+  ValueRank: Any
+  Children:
+  - Name: L4
+    Type: ScrewToScreen_Expected_TypeUDT_Level53
+    DataType: ScrewToScreen_Expected_TypeUDT_Level53
+    Children:
+    - Name: L5
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L5"
+- Name: ScrewToScreen_Expected_TypeUDT_Level2
+  Id: g=9a606c6b245487b2f4b22e996c41965c
+  Supertype: TagStructure
+  DataType: ScrewToScreen_Expected_TypeUDT_Level2
+  ValueRank: Any
+  Children:
+  - Name: L2
+    Type: ScrewToScreen_Expected_TypeUDT_Level33
+    DataType: ScrewToScreen_Expected_TypeUDT_Level33
+    Children:
+    - Name: L3
+      Type: ScrewToScreen_Expected_TypeUDT_Level4
+      DataType: ScrewToScreen_Expected_TypeUDT_Level4
+      Children:
+      - Name: L4
+        Type: ScrewToScreen_Expected_TypeUDT_Level53
+        DataType: ScrewToScreen_Expected_TypeUDT_Level53
+        Children:
+        - Name: L5
+          Type: RAEtherNetIPTag
+          DataType: Int32
+          Children:
+          - Name: SymbolName
+            Type: BaseDataVariableType
+            DataType: String
+            Value: "L5"
+- Name: ScrewToScreen_Expected_TypeUDT_Level33
+  Id: g=a76775ad30f164d9b494babda0efbfc3
+  Supertype: TagStructure
+  DataType: ScrewToScreen_Expected_TypeUDT_Level33
+  ValueRank: Any
+  Children:
+  - Name: L3
+    Type: ScrewToScreen_Expected_TypeUDT_Level4
+    DataType: ScrewToScreen_Expected_TypeUDT_Level4
+    Children:
+    - Name: L4
+      Type: ScrewToScreen_Expected_TypeUDT_Level53
+      DataType: ScrewToScreen_Expected_TypeUDT_Level53
+      Children:
+      - Name: L5
+        Type: RAEtherNetIPTag
+        DataType: Int32
+        Children:
+        - Name: SymbolName
+          Type: BaseDataVariableType
+          DataType: String
+          Value: "L5"
+- Name: ScrewToScreen_Expected_TypeUDT_Level43
+  Id: g=a2f5454785470bb4b1a0b83cb7e68c87
+  Supertype: TagStructure
+  DataType: ScrewToScreen_Expected_TypeUDT_Level43
+  ValueRank: Any
+  Children:
+  - Name: L4
+    Type: ScrewToScreen_Expected_TypeUDT_Level53
+    DataType: ScrewToScreen_Expected_TypeUDT_Level53
+    Children:
+    - Name: L5
+      Type: RAEtherNetIPTag
+      DataType: Int32
+      Children:
+      - Name: SymbolName
+        Type: BaseDataVariableType
+        DataType: String
+        Value: "L5"
+- Name: ScatteredBOOLs1
+  Id: g=543f5206303238af251653a9df7e0f6c
+  Supertype: TagStructure
+  DataType: ScatteredBOOLs1
+  ValueRank: Any
+  Children:
+  - Name: B00
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B00"
+  - Name: B01
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B01"
+  - Name: B02
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B02"
+  - Name: B03
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B03"
+  - Name: B04
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B04"
+  - Name: B05
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B05"
+  - Name: B06
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B06"
+  - Name: B07
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B07"
+  - Name: B08
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B08"
+  - Name: B09
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B09"
+  - Name: B10
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B10"
+  - Name: B11
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B11"
+  - Name: B12
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B12"
+  - Name: B13
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B13"
+  - Name: B14
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B14"
+  - Name: B15
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B15"
+  - Name: B16
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B16"
+  - Name: B17
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B17"
+  - Name: B18
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B18"
+  - Name: B19
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B19"
+  - Name: B20
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B20"
+  - Name: B21
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B21"
+  - Name: B22
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B22"
+  - Name: B23
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B23"
+  - Name: B24
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B24"
+  - Name: B25
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B25"
+  - Name: B26
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "B26"
 - Name: ScatteredSTRINGs1
   Id: g=4ea3b1d08eb9f03b4f5622bf96d69791
   Supertype: TagStructure
@@ -223,10 +827,40 @@ Children:
       Type: BaseDataVariableType
       DataType: String
       Value: "S26"
-- Name: ScrewToScreen_Expected_TypeUDT_Level2
-  Id: g=9a606c6b245487b2f4b22e996c41965c
+- Name: ScrewToScreen_Expected_TypeUDT3
+  Id: g=4be01d70e9601ac72c5a42a42720d586
   Supertype: TagStructure
-  DataType: ScrewToScreen_Expected_TypeUDT_Level2
+  DataType: ScrewToScreen_Expected_TypeUDT3
+  ValueRank: Any
+  Children:
+  - Name: L1
+    Type: ScrewToScreen_Expected_TypeUDT_Level2
+    DataType: ScrewToScreen_Expected_TypeUDT_Level2
+    Children:
+    - Name: L2
+      Type: ScrewToScreen_Expected_TypeUDT_Level33
+      DataType: ScrewToScreen_Expected_TypeUDT_Level33
+      Children:
+      - Name: L3
+        Type: ScrewToScreen_Expected_TypeUDT_Level4
+        DataType: ScrewToScreen_Expected_TypeUDT_Level4
+        Children:
+        - Name: L4
+          Type: ScrewToScreen_Expected_TypeUDT_Level53
+          DataType: ScrewToScreen_Expected_TypeUDT_Level53
+          Children:
+          - Name: L5
+            Type: RAEtherNetIPTag
+            DataType: Int32
+            Children:
+            - Name: SymbolName
+              Type: BaseDataVariableType
+              DataType: String
+              Value: "L5"
+- Name: ScrewToScreen_Expected_TypeUDT_Level23
+  Id: g=bc3bf3592889e48c71a4497c1d83d572
+  Supertype: TagStructure
+  DataType: ScrewToScreen_Expected_TypeUDT_Level23
   ValueRank: Any
   Children:
   - Name: L2
@@ -234,8 +868,8 @@ Children:
     DataType: ScrewToScreen_Expected_TypeUDT_Level33
     Children:
     - Name: L3
-      Type: ScrewToScreen_Expected_TypeUDT_Level4
-      DataType: ScrewToScreen_Expected_TypeUDT_Level4
+      Type: ScrewToScreen_Expected_TypeUDT_Level43
+      DataType: ScrewToScreen_Expected_TypeUDT_Level43
       Children:
       - Name: L4
         Type: ScrewToScreen_Expected_TypeUDT_Level53
@@ -249,254 +883,672 @@ Children:
             Type: BaseDataVariableType
             DataType: String
             Value: "L5"
-- Name: ScreenToScrew_Expected_Type041
-  Id: g=7ba0bdbcf921575fa71830456c39a482
+- Name: ScatteredINTs1
+  Id: g=6406704986a2b9e7aebf22278889d1fe
   Supertype: TagStructure
-  DataType: ScreenToScrew_Expected_Type041
+  DataType: ScatteredINTs1
   ValueRank: Any
   Children:
-  - Name: Tag00
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Tag00"
-  - Name: Tag01
-    Type: RAEtherNetIPTag
-    DataType: String
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Tag01"
-  - Name: Tag02
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Tag02"
-  - Name: Tag03
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Tag03"
-  - Name: Tag04
+  - Name: I00
     Type: RAEtherNetIPTag
     DataType: Int16
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Tag04"
-  - Name: Tag05
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Tag05"
-  - Name: Tag06
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Tag06"
-- Name: Config_Alms1
-  Id: g=2458a1991cf58ffbfe1961dbde304ae0
-  Supertype: TagStructure
-  DataType: Config_Alms1
-  ValueRank: Any
-  Children:
-  - Name: HI_Input
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "HI_Input"
-  - Name: HIHI_Input
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "HIHI_Input"
-  - Name: LO_Input
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "LO_Input"
-  - Name: LOLO_Input
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "LOLO_Input"
-  - Name: ROCNEG_Input
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ROCNEG_Input"
-  - Name: ROCPOS_Input
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "ROCPOS_Input"
-  - Name: TRIP_Input
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "TRIP_Input"
-- Name: ScrewToScreen_Expected_TypeUDT_Level53
-  Id: g=415b5823a9945a093681463690ac2d6c
-  Supertype: TagStructure
-  DataType: ScrewToScreen_Expected_TypeUDT_Level53
-  ValueRank: Any
-  Children:
-  - Name: L5
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L5"
-- Name: ScrewToScreen_Expected_TypeUDT_Level33
-  Id: g=a76775ad30f164d9b494babda0efbfc3
-  Supertype: TagStructure
-  DataType: ScrewToScreen_Expected_TypeUDT_Level33
-  ValueRank: Any
-  Children:
-  - Name: L3
-    Type: ScrewToScreen_Expected_TypeUDT_Level4
-    DataType: ScrewToScreen_Expected_TypeUDT_Level4
-    Children:
-    - Name: L4
-      Type: ScrewToScreen_Expected_TypeUDT_Level53
-      DataType: ScrewToScreen_Expected_TypeUDT_Level53
-      Children:
-      - Name: L5
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "L5"
-- Name: Recipe_ICE11
-  Id: g=77920333e26aba8e3c285cbf6b296263
-  Supertype: TagStructure
-  DataType: Recipe_ICE11
-  ValueRank: Any
-  Children:
-  - Name: Rec_BOOL
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Rec_BOOL"
-  - Name: Rec_DINT
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Rec_DINT"
-  - Name: Rec_INT
+      Value: "I00"
+  - Name: I01
     Type: RAEtherNetIPTag
     DataType: Int16
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Rec_INT"
-  - Name: Rec_LINT
+      Value: "I01"
+  - Name: I02
     Type: RAEtherNetIPTag
-    DataType: Int64
+    DataType: Int16
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Rec_LINT"
-  - Name: Rec_REAL
+      Value: "I02"
+  - Name: I03
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I03"
+  - Name: I04
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I04"
+  - Name: I05
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I05"
+  - Name: I06
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I06"
+  - Name: I07
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I07"
+  - Name: I08
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I08"
+  - Name: I09
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I09"
+  - Name: I10
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I10"
+  - Name: I11
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I11"
+  - Name: I12
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I12"
+  - Name: I13
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I13"
+  - Name: I14
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I14"
+  - Name: I15
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I15"
+  - Name: I16
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I16"
+  - Name: I17
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I17"
+  - Name: I18
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I18"
+  - Name: I19
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I19"
+  - Name: I20
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I20"
+  - Name: I21
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I21"
+  - Name: I22
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I22"
+  - Name: I23
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I23"
+  - Name: I24
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I24"
+  - Name: I25
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I25"
+  - Name: I26
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "I26"
+- Name: ScatteredREALs
+  Id: g=37006ef1edb31caf4338170c20ae3ba8
+  Supertype: TagStructure
+  DataType: ScatteredREALs
+  ValueRank: Any
+  Children:
+  - Name: R00
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Rec_REAL"
-  - Name: Rec_SINT
+      Value: "R00"
+  - Name: R01
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R01"
+  - Name: R02
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R02"
+  - Name: R03
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R03"
+  - Name: R04
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R04"
+  - Name: R05
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R05"
+  - Name: R06
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R06"
+  - Name: R07
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R07"
+  - Name: R08
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R08"
+  - Name: R09
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R09"
+  - Name: R10
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R10"
+  - Name: R11
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R11"
+  - Name: R12
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R12"
+  - Name: R13
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R13"
+  - Name: R14
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R14"
+  - Name: R15
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R15"
+  - Name: R16
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R16"
+  - Name: R17
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R17"
+  - Name: R18
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R18"
+  - Name: R19
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R19"
+  - Name: R20
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R20"
+  - Name: R21
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R21"
+  - Name: R22
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R22"
+  - Name: R23
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R23"
+  - Name: R24
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R24"
+  - Name: R25
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R25"
+  - Name: R26
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "R26"
+- Name: ScatteredSINTs1
+  Id: g=afb388e05e89b7278cf2474bf7c9594a
+  Supertype: TagStructure
+  DataType: ScatteredSINTs1
+  ValueRank: Any
+  Children:
+  - Name: S00
     Type: RAEtherNetIPTag
     DataType: SByte
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Rec_SINT"
-  - Name: Rec_STRING
+      Value: "S00"
+  - Name: S01
     Type: RAEtherNetIPTag
-    DataType: String
+    DataType: SByte
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Rec_STRING"
-  - Name: Update_Tags
+      Value: "S01"
+  - Name: S02
     Type: RAEtherNetIPTag
-    DataType: Boolean
+    DataType: SByte
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Update_Tags"
-- Name: ScrewToScreen_Expected_TypeUDT_Level43
-  Id: g=a2f5454785470bb4b1a0b83cb7e68c87
-  Supertype: TagStructure
-  DataType: ScrewToScreen_Expected_TypeUDT_Level43
-  ValueRank: Any
-  Children:
-  - Name: L4
-    Type: ScrewToScreen_Expected_TypeUDT_Level53
-    DataType: ScrewToScreen_Expected_TypeUDT_Level53
+      Value: "S02"
+  - Name: S03
+    Type: RAEtherNetIPTag
+    DataType: SByte
     Children:
-    - Name: L5
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "L5"
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S03"
+  - Name: S04
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S04"
+  - Name: S05
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S05"
+  - Name: S06
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S06"
+  - Name: S07
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S07"
+  - Name: S08
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S08"
+  - Name: S09
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S09"
+  - Name: S10
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S10"
+  - Name: S11
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S11"
+  - Name: S12
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S12"
+  - Name: S13
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S13"
+  - Name: S14
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S14"
+  - Name: S15
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S15"
+  - Name: S16
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S16"
+  - Name: S17
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S17"
+  - Name: S18
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S18"
+  - Name: S19
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S19"
+  - Name: S20
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S20"
+  - Name: S21
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S21"
+  - Name: S22
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S22"
+  - Name: S23
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S23"
+  - Name: S24
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S24"
+  - Name: S25
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S25"
+  - Name: S26
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "S26"
 - Name: ns=49;HB_EOI1
   Id: g=23cdde5564cf2b06a1cf4acbbfbc25b3
   Supertype: TagStructure
@@ -579,6 +1631,290 @@ Children:
         Type: BaseDataVariableType
         DataType: String
         Value: "TT"
+- Name: ScatteredLINTs1
+  Id: g=5bb6000887239c4fb7569eb59b11ad88
+  Supertype: TagStructure
+  DataType: ScatteredLINTs1
+  ValueRank: Any
+  Children:
+  - Name: L00
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L00"
+  - Name: L01
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L01"
+  - Name: L02
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L02"
+  - Name: L03
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L03"
+  - Name: L04
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L04"
+  - Name: L05
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L05"
+  - Name: L06
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L06"
+  - Name: L07
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L07"
+  - Name: L08
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L08"
+  - Name: L09
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L09"
+  - Name: L10
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L10"
+  - Name: L11
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L11"
+  - Name: L12
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L12"
+  - Name: L13
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L13"
+  - Name: L14
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L14"
+  - Name: L15
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L15"
+  - Name: L16
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L16"
+  - Name: L17
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L17"
+  - Name: L18
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L18"
+  - Name: L19
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L19"
+  - Name: L20
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L20"
+  - Name: L21
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L21"
+  - Name: L22
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L22"
+  - Name: L23
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L23"
+  - Name: L24
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L24"
+  - Name: L25
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L25"
+  - Name: L26
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "L26"
+- Name: ScreenToScrew_Expected_Type041
+  Id: g=7ba0bdbcf921575fa71830456c39a482
+  Supertype: TagStructure
+  DataType: ScreenToScrew_Expected_Type041
+  ValueRank: Any
+  Children:
+  - Name: Tag00
+    Type: RAEtherNetIPTag
+    DataType: Int32
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag00"
+  - Name: Tag01
+    Type: RAEtherNetIPTag
+    DataType: String
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag01"
+  - Name: Tag02
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag02"
+  - Name: Tag03
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag03"
+  - Name: Tag04
+    Type: RAEtherNetIPTag
+    DataType: Int16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag04"
+  - Name: Tag05
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag05"
+  - Name: Tag06
+    Type: RAEtherNetIPTag
+    DataType: Int64
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Tag06"
 - Name: ScatteredUDTs
   Id: g=6b010877c3c586890c4dd671e416d789
   Supertype: TagStructure
@@ -1369,1496 +2705,138 @@ Children:
                 Type: BaseDataVariableType
                 DataType: String
                 Value: "L5"
-- Name: ScatteredBOOLs1
-  Id: g=543f5206303238af251653a9df7e0f6c
+- Name: Recipe_ICE11
+  Id: g=77920333e26aba8e3c285cbf6b296263
   Supertype: TagStructure
-  DataType: ScatteredBOOLs1
+  DataType: Recipe_ICE11
   ValueRank: Any
   Children:
-  - Name: B00
+  - Name: Rec_BOOL
     Type: RAEtherNetIPTag
     DataType: Boolean
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "B00"
-  - Name: B01
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B01"
-  - Name: B02
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B02"
-  - Name: B03
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B03"
-  - Name: B04
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B04"
-  - Name: B05
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B05"
-  - Name: B06
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B06"
-  - Name: B07
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B07"
-  - Name: B08
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B08"
-  - Name: B09
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B09"
-  - Name: B10
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B10"
-  - Name: B11
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B11"
-  - Name: B12
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B12"
-  - Name: B13
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B13"
-  - Name: B14
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B14"
-  - Name: B15
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B15"
-  - Name: B16
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B16"
-  - Name: B17
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B17"
-  - Name: B18
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B18"
-  - Name: B19
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B19"
-  - Name: B20
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B20"
-  - Name: B21
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B21"
-  - Name: B22
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B22"
-  - Name: B23
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B23"
-  - Name: B24
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B24"
-  - Name: B25
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B25"
-  - Name: B26
-    Type: RAEtherNetIPTag
-    DataType: Boolean
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "B26"
-- Name: ScrewToScreen_Expected_TypeUDT_Level4
-  Id: g=2dc01924e7ebe67177e05abfa6ad471b
-  Supertype: TagStructure
-  DataType: ScrewToScreen_Expected_TypeUDT_Level4
-  ValueRank: Any
-  Children:
-  - Name: L4
-    Type: ScrewToScreen_Expected_TypeUDT_Level53
-    DataType: ScrewToScreen_Expected_TypeUDT_Level53
-    Children:
-    - Name: L5
-      Type: RAEtherNetIPTag
-      DataType: Int32
-      Children:
-      - Name: SymbolName
-        Type: BaseDataVariableType
-        DataType: String
-        Value: "L5"
-- Name: ScatteredLINTs1
-  Id: g=5bb6000887239c4fb7569eb59b11ad88
-  Supertype: TagStructure
-  DataType: ScatteredLINTs1
-  ValueRank: Any
-  Children:
-  - Name: L00
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L00"
-  - Name: L01
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L01"
-  - Name: L02
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L02"
-  - Name: L03
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L03"
-  - Name: L04
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L04"
-  - Name: L05
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L05"
-  - Name: L06
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L06"
-  - Name: L07
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L07"
-  - Name: L08
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L08"
-  - Name: L09
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L09"
-  - Name: L10
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L10"
-  - Name: L11
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L11"
-  - Name: L12
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L12"
-  - Name: L13
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L13"
-  - Name: L14
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L14"
-  - Name: L15
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L15"
-  - Name: L16
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L16"
-  - Name: L17
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L17"
-  - Name: L18
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L18"
-  - Name: L19
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L19"
-  - Name: L20
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L20"
-  - Name: L21
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L21"
-  - Name: L22
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L22"
-  - Name: L23
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L23"
-  - Name: L24
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L24"
-  - Name: L25
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L25"
-  - Name: L26
-    Type: RAEtherNetIPTag
-    DataType: Int64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "L26"
-- Name: ScatteredINTs1
-  Id: g=6406704986a2b9e7aebf22278889d1fe
-  Supertype: TagStructure
-  DataType: ScatteredINTs1
-  ValueRank: Any
-  Children:
-  - Name: I00
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I00"
-  - Name: I01
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I01"
-  - Name: I02
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I02"
-  - Name: I03
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I03"
-  - Name: I04
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I04"
-  - Name: I05
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I05"
-  - Name: I06
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I06"
-  - Name: I07
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I07"
-  - Name: I08
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I08"
-  - Name: I09
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I09"
-  - Name: I10
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I10"
-  - Name: I11
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I11"
-  - Name: I12
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I12"
-  - Name: I13
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I13"
-  - Name: I14
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I14"
-  - Name: I15
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I15"
-  - Name: I16
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I16"
-  - Name: I17
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I17"
-  - Name: I18
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I18"
-  - Name: I19
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I19"
-  - Name: I20
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I20"
-  - Name: I21
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I21"
-  - Name: I22
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I22"
-  - Name: I23
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I23"
-  - Name: I24
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I24"
-  - Name: I25
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I25"
-  - Name: I26
-    Type: RAEtherNetIPTag
-    DataType: Int16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "I26"
-- Name: ScatteredDINTs1
-  Id: g=33e31df2150b225a81c1c1e9f1e08641
-  Supertype: TagStructure
-  DataType: ScatteredDINTs1
-  ValueRank: Any
-  Children:
-  - Name: D00
+      Value: "Rec_BOOL"
+  - Name: Rec_DINT
     Type: RAEtherNetIPTag
     DataType: Int32
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "D00"
-  - Name: D01
+      Value: "Rec_DINT"
+  - Name: Rec_INT
     Type: RAEtherNetIPTag
-    DataType: Int32
+    DataType: Int16
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "D01"
-  - Name: D02
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D02"
-  - Name: D03
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D03"
-  - Name: D04
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D04"
-  - Name: D05
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D05"
-  - Name: D06
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D06"
-  - Name: D07
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D07"
-  - Name: D08
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D08"
-  - Name: D09
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D09"
-  - Name: D10
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D10"
-  - Name: D11
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D11"
-  - Name: D12
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D12"
-  - Name: D13
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D13"
-  - Name: D14
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D14"
-  - Name: D15
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D15"
-  - Name: D16
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D16"
-  - Name: D17
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D17"
-  - Name: D18
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D18"
-  - Name: D19
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D19"
-  - Name: D20
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D20"
-  - Name: D21
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D21"
-  - Name: D22
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D22"
-  - Name: D23
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D23"
-  - Name: D24
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D24"
-  - Name: D25
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D25"
-  - Name: D26
-    Type: RAEtherNetIPTag
-    DataType: Int32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "D26"
-- Name: ScrewToScreen_Expected_TypeUDT3
-  Id: g=4be01d70e9601ac72c5a42a42720d586
-  Supertype: TagStructure
-  DataType: ScrewToScreen_Expected_TypeUDT3
-  ValueRank: Any
-  Children:
-  - Name: L1
-    Type: ScrewToScreen_Expected_TypeUDT_Level2
-    DataType: ScrewToScreen_Expected_TypeUDT_Level2
-    Children:
-    - Name: L2
-      Type: ScrewToScreen_Expected_TypeUDT_Level33
-      DataType: ScrewToScreen_Expected_TypeUDT_Level33
-      Children:
-      - Name: L3
-        Type: ScrewToScreen_Expected_TypeUDT_Level4
-        DataType: ScrewToScreen_Expected_TypeUDT_Level4
-        Children:
-        - Name: L4
-          Type: ScrewToScreen_Expected_TypeUDT_Level53
-          DataType: ScrewToScreen_Expected_TypeUDT_Level53
-          Children:
-          - Name: L5
-            Type: RAEtherNetIPTag
-            DataType: Int32
-            Children:
-            - Name: SymbolName
-              Type: BaseDataVariableType
-              DataType: String
-              Value: "L5"
-- Name: ScrewToScreen_Expected_TypeUDT_Level33
-  Id: g=a76775ad30f164d9b494babda0efbfc3
-  Supertype: TagStructure
-  DataType: ScrewToScreen_Expected_TypeUDT_Level33
-  ValueRank: Any
-  Children:
-  - Name: L3
-    Type: ScrewToScreen_Expected_TypeUDT_Level4
-    DataType: ScrewToScreen_Expected_TypeUDT_Level4
-    Children:
-    - Name: L4
-      Type: ScrewToScreen_Expected_TypeUDT_Level53
-      DataType: ScrewToScreen_Expected_TypeUDT_Level53
-      Children:
-      - Name: L5
-        Type: RAEtherNetIPTag
-        DataType: Int32
-        Children:
-        - Name: SymbolName
-          Type: BaseDataVariableType
-          DataType: String
-          Value: "L5"
-- Name: ScrewToScreen_Expected_TypeUDT_Level23
-  Id: g=bc3bf3592889e48c71a4497c1d83d572
-  Supertype: TagStructure
-  DataType: ScrewToScreen_Expected_TypeUDT_Level23
-  ValueRank: Any
-  Children:
-  - Name: L2
-    Type: ScrewToScreen_Expected_TypeUDT_Level33
-    DataType: ScrewToScreen_Expected_TypeUDT_Level33
-    Children:
-    - Name: L3
-      Type: ScrewToScreen_Expected_TypeUDT_Level43
-      DataType: ScrewToScreen_Expected_TypeUDT_Level43
-      Children:
-      - Name: L4
-        Type: ScrewToScreen_Expected_TypeUDT_Level53
-        DataType: ScrewToScreen_Expected_TypeUDT_Level53
-        Children:
-        - Name: L5
-          Type: RAEtherNetIPTag
-          DataType: Int32
-          Children:
-          - Name: SymbolName
-            Type: BaseDataVariableType
-            DataType: String
-            Value: "L5"
-- Name: ScreenToScrew_Expected_Type071
-  Id: g=b722c65c5bf00f97472f3e6e1a6d0073
-  Supertype: TagStructure
-  DataType: ScreenToScrew_Expected_Type071
-  ValueRank: Any
-  Children:
-  - Name: Tag00
-    Type: RAEtherNetIPTag
-    DataType: Double
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Tag00"
-  - Name: Tag01
-    Type: RAEtherNetIPTag
-    DataType: UInt64
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Tag01"
-  - Name: Tag02
-    Type: RAEtherNetIPTag
-    DataType: UInt32
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Tag02"
-  - Name: Tag03
-    Type: RAEtherNetIPTag
-    DataType: UInt16
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Tag03"
-  - Name: Tag04
-    Type: RAEtherNetIPTag
-    DataType: Byte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "Tag04"
-  - Name: Tag05
+      Value: "Rec_INT"
+  - Name: Rec_LINT
     Type: RAEtherNetIPTag
     DataType: Int64
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Tag05"
-  - Name: Tag06
+      Value: "Rec_LINT"
+  - Name: Rec_REAL
+    Type: RAEtherNetIPTag
+    DataType: Float
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Rec_REAL"
+  - Name: Rec_SINT
+    Type: RAEtherNetIPTag
+    DataType: SByte
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Rec_SINT"
+  - Name: Rec_STRING
     Type: RAEtherNetIPTag
     DataType: String
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "Tag06"
-- Name: ScatteredREALs
-  Id: g=37006ef1edb31caf4338170c20ae3ba8
+      Value: "Rec_STRING"
+  - Name: Update_Tags
+    Type: RAEtherNetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "Update_Tags"
+- Name: Config_Alms1
+  Id: g=2458a1991cf58ffbfe1961dbde304ae0
   Supertype: TagStructure
-  DataType: ScatteredREALs
+  DataType: Config_Alms1
   ValueRank: Any
   Children:
-  - Name: R00
+  - Name: HI_Input
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "R00"
-  - Name: R01
+      Value: "HI_Input"
+  - Name: HIHI_Input
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "R01"
-  - Name: R02
+      Value: "HIHI_Input"
+  - Name: LO_Input
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "R02"
-  - Name: R03
+      Value: "LO_Input"
+  - Name: LOLO_Input
     Type: RAEtherNetIPTag
     DataType: Float
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "R03"
-  - Name: R04
+      Value: "LOLO_Input"
+  - Name: ROCNEG_Input
     Type: RAEtherNetIPTag
-    DataType: Float
+    DataType: Int32
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "R04"
-  - Name: R05
+      Value: "ROCNEG_Input"
+  - Name: ROCPOS_Input
     Type: RAEtherNetIPTag
-    DataType: Float
+    DataType: Int32
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "R05"
-  - Name: R06
+      Value: "ROCPOS_Input"
+  - Name: TRIP_Input
     Type: RAEtherNetIPTag
-    DataType: Float
+    DataType: Boolean
     Children:
     - Name: SymbolName
       Type: BaseDataVariableType
       DataType: String
-      Value: "R06"
-  - Name: R07
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R07"
-  - Name: R08
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R08"
-  - Name: R09
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R09"
-  - Name: R10
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R10"
-  - Name: R11
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R11"
-  - Name: R12
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R12"
-  - Name: R13
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R13"
-  - Name: R14
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R14"
-  - Name: R15
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R15"
-  - Name: R16
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R16"
-  - Name: R17
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R17"
-  - Name: R18
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R18"
-  - Name: R19
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R19"
-  - Name: R20
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R20"
-  - Name: R21
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R21"
-  - Name: R22
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R22"
-  - Name: R23
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R23"
-  - Name: R24
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R24"
-  - Name: R25
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R25"
-  - Name: R26
-    Type: RAEtherNetIPTag
-    DataType: Float
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "R26"
-- Name: ScatteredSINTs1
-  Id: g=afb388e05e89b7278cf2474bf7c9594a
-  Supertype: TagStructure
-  DataType: ScatteredSINTs1
-  ValueRank: Any
-  Children:
-  - Name: S00
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S00"
-  - Name: S01
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S01"
-  - Name: S02
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S02"
-  - Name: S03
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S03"
-  - Name: S04
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S04"
-  - Name: S05
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S05"
-  - Name: S06
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S06"
-  - Name: S07
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S07"
-  - Name: S08
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S08"
-  - Name: S09
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S09"
-  - Name: S10
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S10"
-  - Name: S11
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S11"
-  - Name: S12
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S12"
-  - Name: S13
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S13"
-  - Name: S14
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S14"
-  - Name: S15
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S15"
-  - Name: S16
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S16"
-  - Name: S17
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S17"
-  - Name: S18
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S18"
-  - Name: S19
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S19"
-  - Name: S20
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S20"
-  - Name: S21
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S21"
-  - Name: S22
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S22"
-  - Name: S23
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S23"
-  - Name: S24
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S24"
-  - Name: S25
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S25"
-  - Name: S26
-    Type: RAEtherNetIPTag
-    DataType: SByte
-    Children:
-    - Name: SymbolName
-      Type: BaseDataVariableType
-      DataType: String
-      Value: "S26"
+      Value: "TRIP_Input"
 - Name: ns=49;TIMER1
   Id: g=0f52b7dbd9897485b89b852efdc235ad
   Supertype: TagStructure

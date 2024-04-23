@@ -8412,6 +8412,54 @@ Children:
     Type: BaseDataVariableType
     DataType: String
     Value: "ScreenToScrew_PEExpected"
+- Name: ScreenToScrew_PEExpected_LINT
+  Type: RAEtherNetIPTag
+  DataType: Int64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ScreenToScrew_PEExpected_LINT"
+- Name: ScreenToScrew_PEExpected_LREAL
+  Type: RAEtherNetIPTag
+  DataType: Double
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ScreenToScrew_PEExpected_LREAL"
+- Name: ScreenToScrew_PEExpected_UDINT
+  Type: RAEtherNetIPTag
+  DataType: UInt32
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ScreenToScrew_PEExpected_UDINT"
+- Name: ScreenToScrew_PEExpected_UINT
+  Type: RAEtherNetIPTag
+  DataType: UInt16
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ScreenToScrew_PEExpected_UINT"
+- Name: ScreenToScrew_PEExpected_ULINT
+  Type: RAEtherNetIPTag
+  DataType: UInt64
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ScreenToScrew_PEExpected_ULINT"
+- Name: ScreenToScrew_PEExpected_USINT
+  Type: RAEtherNetIPTag
+  DataType: Byte
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "ScreenToScrew_PEExpected_USINT"
 - Name: ScrewToScreen_ARRAY_PEExpected
   Type: RAEtherNetIPTag
   DataType: Int32
