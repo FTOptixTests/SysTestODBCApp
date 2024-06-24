@@ -189,10 +189,12 @@ public class QueryViaNetLogic: BaseNetLogic
         if (numberOfRecords == expectedRecordsCount)
         {
             LogicObject.GetVariable("RecordsCountOK").Value = true;
+            Log.Info($"Records count verified successfully");
         }
         else
         {
             LogicObject.GetVariable("RecordsCountOK").Value = false;
+            Log.Error($"Records count verification failed. There's a mismatch between the records count in the database and the expected records count.");
         }
     }
 
