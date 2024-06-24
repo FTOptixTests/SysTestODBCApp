@@ -934,3 +934,18 @@ Children:
     Type: PropertyType
     DataType: String
     Value: "odbc_vv_db"
+  - Name: SFEnabled
+    Type: BaseDataVariableType
+    DataType: Boolean
+  - Name: SFBufferMaxSize
+    Type: BaseDataVariableType
+    DataType: UInt32
+    Value: 1000
+  - Name: SFBufferUsage
+    Type: BaseDataVariableType
+    DataType: UInt32
+    AccessLevel: Read
+  - Name: SFBufferOverflow
+    Type: BaseDataVariableType
+    DataType: Boolean
+    AccessLevel: Read

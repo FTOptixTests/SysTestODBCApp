@@ -12,6 +12,7 @@ Children:
   Id: g=20e059383655afaf561fc240b9dd7c49
   Type: BaseDataVariableType
   DataType: Int32
+  Value: -1
 - Name: STRING_Var1
   Type: BaseDataVariableType
   DataType: String
